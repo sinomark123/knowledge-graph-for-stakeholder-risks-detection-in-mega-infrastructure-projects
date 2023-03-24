@@ -1,0 +1,523 @@
+p1,p2,probability,stk on start,stk on destination,prj on start,prj on destination,risk on start,risk on destination
+Change risk,Climate,0.8758620689655172,0,1,0,0,1,0
+Departments of Transportation,State,0.7756410256410257,1,1,0,0,0,0
+Social Implications,PURPOSE,0.7423312883435583,1,1,0,0,0,0
+NPV,NET,0.8170731707317073,1,1,0,0,0,0
+QRA,Quantitative risk,0.8268156424581006,1,0,0,0,0,1
+Environmental Protection Agency,United States,0.7407407407407407,1,1,0,0,0,0
+CSR,Social Responsibility,0.8205128205128205,1,1,0,0,0,0
+Social Responsibility,CSR,0.528052805280528,1,1,0,0,0,0
+CSR,"Social Responsibility, ON",0.6820512820512821,1,2,0,0,0,0
+"CSR, ON",Social Responsibility,0.8209876543209876,2,1,0,0,0,0
+"Social Responsibility, ON",CSR,0.5341365461847389,2,1,0,0,0,0
+IPCC,Climate,0.8465346534653465,1,1,0,0,0,0
+IPCC,"Climate, ON",0.7623762376237624,1,2,0,0,0,0
+"IPCC, ON",Climate,0.8603351955307262,2,1,0,0,0,0
+Geographical Information System,GIS,0.6439024390243903,1,1,0,0,0,0
+RF,Random Forest,0.6572769953051644,1,1,0,0,0,0
+PRA,Probabilistic risk,0.7523364485981309,1,0,0,0,0,1
+TOPSIS,IDEAL,0.5573770491803278,1,1,0,0,0,0
+TOPSIS,Method,0.6311475409836066,1,1,0,0,0,0
+Traffic Management,Safety,0.5095785440613027,1,1,0,0,0,0
+"Traffic Management, ON",Safety,0.545045045045045,2,1,0,0,0,0
+CCS,"Carbon, ON",0.6228373702422145,1,2,0,0,0,0
+"CCS, ON",Carbon,0.8108108108108109,2,1,0,0,0,0
+CCS,Carbon,0.7993079584775087,1,1,0,0,0,0
+the World Health Organization,WHO,0.5172413793103449,1,1,0,0,0,0
+"Learning, SVM",Machine,0.9612403100775194,2,1,0,0,0,0
+"Machine, SVM",Learning,0.5040650406504065,2,1,0,0,0,0
+SVM,"Machine, ON",0.6153846153846154,1,2,0,0,0,0
+"SVM, ON",Machine,0.8177777777777778,2,1,0,0,0,0
+SVM,Machine,0.822742474916388,1,1,0,0,0,0
+FMEA,Method,0.5607476635514018,1,1,0,0,0,0
+"FMEA, ON",Method,0.5646551724137931,2,1,0,0,0,0
+Climate risk,"Climate, ON",0.7217125382262997,1,2,0,0,1,0
+"Climate risk, ON",Climate,0.9182879377431906,2,1,0,0,1,0
+Climate risk,Climate,0.926605504587156,1,1,0,0,1,0
+"GHG, ON",Climate,0.5300751879699248,2,1,0,0,0,0
+Autonomous Vehicles,Safety,0.5420289855072464,1,1,0,0,0,0
+"Autonomous Vehicles, ON",Safety,0.5516014234875445,2,1,0,0,0,0
+Effective risk,Management,0.5847457627118644,0,1,0,0,1,0
+"Effective risk, ON",Management,0.604982206405694,1,1,0,0,1,0
+g/m(3,"mu, ON",0.5342465753424658,1,2,0,0,0,0
+"g/m(3, ON",mu,0.924170616113744,2,1,0,0,0,0
+g/m(3,mu,0.926027397260274,1,1,0,0,0,0
+"Carcinogenic risk, ON",Health risk,0.6044444444444445,1,0,0,0,1,1
+Carcinogenic risk,Health risk,0.5918367346938775,0,0,0,0,1,1
+Random Forest,Learning,0.508274231678487,1,1,0,0,0,0
+"Learning, Random Forest","Machine, ON",0.7069767441860465,2,2,0,0,0,0
+"Machine, Random Forest","Learning, ON",0.6637554585152838,2,2,0,0,0,0
+"Learning, Random Forest, ON",Machine,0.9440993788819876,3,1,0,0,0,0
+"Machine, Random Forest, ON",Learning,0.8735632183908046,3,1,0,0,0,0
+"Learning, Random Forest",Machine,0.9302325581395348,2,1,0,0,0,0
+"Machine, Random Forest",Learning,0.8733624454148472,2,1,0,0,0,0
+Random Forest,Machine,0.541371158392435,1,1,0,0,0,0
+"Random Forest, ON",Machine,0.525679758308157,2,1,0,0,0,0
+LCA,IMPACTS,0.5638051044083526,1,1,0,0,0,0
+"LCA, ON",IMPACTS,0.5664739884393064,2,1,0,0,0,0
+Urban Planning,uRban,0.7235955056179775,1,1,0,0,0,0
+Urban Planning,"uRban, ON",0.5730337078651685,1,2,0,0,0,0
+"Urban Planning, ON",uRban,0.7203389830508474,2,1,0,0,0,0
+Computational Fluid Dynamics,CFD,0.7342047930283224,1,1,0,0,0,0
+CFD,Computational Fluid Dynamics,0.5551894563426688,1,1,0,0,0,0
+Computational Fluid Dynamics,"CFD, ON",0.5577342047930284,1,2,0,0,0,0
+"Computational Fluid Dynamics, ON",CFD,0.735632183908046,2,1,0,0,0,0
+"CFD, ON",Computational Fluid Dynamics,0.5577342047930284,2,1,0,0,0,0
+"PAH, ON",Polycyclic,0.7689655172413793,2,1,0,0,0,0
+PAH,Polycyclic,0.7885010266940452,1,1,0,0,0,0
+ASCE,American Society of Civil Engineers,0.718562874251497,1,1,0,0,0,0
+ASCE,"American Society of Civil Engineers, ON",0.5069860279441117,1,2,0,0,0,0
+"ASCE, ON",American Society of Civil Engineers,0.7055555555555556,2,1,0,0,0,0
+"ND, Elsevier Ltd.",CC,0.9323308270676692,2,1,0,0,0,0
+"CC, Elsevier Ltd.",ND,0.5767441860465117,2,1,0,0,0,0
+"ND, Safety","CC, ON",0.8592964824120602,2,2,0,0,0,0
+"Safety, CC","ND, ON",0.8260869565217391,2,2,0,0,0,0
+"ND, CC, ON",Safety,0.5029411764705882,3,1,0,0,0,0
+"ND, Safety, ON",CC,0.9344262295081968,3,1,0,0,0,0
+"Safety, CC, ON",ND,0.9095744680851064,3,1,0,0,0,0
+"ND, Safety",CC,0.9396984924623116,2,1,0,0,0,0
+"Safety, CC",ND,0.9033816425120772,2,1,0,0,0,0
+ND,CC,0.796812749003984,1,1,0,0,0,0
+CC,ND,0.6309148264984227,1,1,0,0,0,0
+ND,"CC, ON",0.6772908366533864,1,2,0,0,0,0
+CC,"ND, ON",0.5362776025236593,1,2,0,0,0,0
+"ND, ON",CC,0.8333333333333334,2,1,0,0,0,0
+"CC, ON",ND,0.648854961832061,2,1,0,0,0,0
+Collision risk,Safety,0.500990099009901,0,1,0,0,1,0
+"Collision risk, ON",Safety,0.5239234449760766,1,1,0,0,1,0
+Energy Efficiency,Energy,0.7335907335907336,1,1,0,0,0,0
+Energy Efficiency,"Energy, ON",0.5579150579150579,1,2,0,0,0,0
+"Energy Efficiency, ON",Energy,0.7526041666666666,2,1,0,0,0,0
+Mercury,HG,0.5134615384615384,1,1,0,0,0,0
+Global Warming,Climate,0.5541125541125541,1,1,0,0,0,0
+"Global Warming, ON",Climate,0.5790441176470589,2,1,0,0,0,0
+"HG, CU","PB, ON",0.5164473684210527,2,2,0,0,0,0
+"HG, PB, ON",CU,0.6946902654867256,3,1,0,0,0,0
+"HG, CU, ON",PB,0.8870056497175142,3,1,0,0,0,0
+"HG, PB",CU,0.6913265306122449,2,1,0,0,0,0
+"HG, CU",PB,0.8914473684210527,2,1,0,0,0,0
+HG,PB,0.5544554455445545,1,1,0,0,0,0
+"HG, ON",PB,0.5472154963680388,2,1,0,0,0,0
+"Safety risk, Management",Safety,0.8177339901477833,2,1,0,0,1,0
+"Safety risk, Management","Safety, ON",0.6650246305418719,2,2,0,0,1,0
+"Safety risk, Management, ON",Safety,0.7988165680473372,3,1,0,0,1,0
+"Safety risk, Research",Safety,0.7632850241545893,2,1,0,0,1,0
+"Safety risk, Research","Safety, ON",0.6280193236714976,2,2,0,0,1,0
+"Safety risk, Research, ON",Safety,0.7692307692307693,3,1,0,0,1,0
+"Safety risk, Method",Safety,0.6612903225806451,2,1,0,0,1,0
+"Safety risk, Method","Safety, ON",0.5846774193548387,2,2,0,0,1,0
+"Method, Safety risk, ON",Safety,0.6904761904761905,3,1,0,0,1,0
+Safety risk,Safety,0.6666666666666666,1,1,0,0,1,0
+Safety risk,"Safety, ON",0.5559947299077734,1,2,0,0,1,0
+"Safety risk, ON",Safety,0.6817447495961227,2,1,0,0,1,0
+"Learning, ML",Machine,0.9928571428571428,2,1,0,0,0,0
+"ML, Machine",Learning,0.9652777777777778,2,1,0,0,0,0
+"National Safety Council, WHO",Elsevier Ltd.,0.8625,2,1,0,0,0,0
+"TIME, National Safety Council",Method,0.6837209302325581,2,1,0,0,0,0
+"TIME, National Safety Council","Method, ON",0.6139534883720931,2,2,0,0,0,0
+"TIME, National Safety Council, ON",Method,0.7058823529411765,3,1,0,0,0,0
+"TIME, National Safety Council","Method, Elsevier Ltd., ON",0.5627906976744186,2,3,0,0,0,0
+"Method, TIME, National Safety Council","Elsevier Ltd., ON",0.8231292517006803,3,2,0,0,0,0
+"TIME, National Safety Council, Elsevier Ltd.","Method, ON",0.657608695652174,3,2,0,0,0,0
+"TIME, National Safety Council, ON","Method, Elsevier Ltd.",0.6470588235294118,3,2,0,0,0,0
+"Method, TIME, National Safety Council, ON",Elsevier Ltd.,0.9166666666666666,4,1,0,0,0,0
+"TIME, National Safety Council, Elsevier Ltd., ON",Method,0.7515527950310559,4,1,0,0,0,0
+"TIME, National Safety Council","Method, Elsevier Ltd.",0.6325581395348837,2,2,0,0,0,0
+"Method, TIME, National Safety Council",Elsevier Ltd.,0.9251700680272108,3,1,0,0,0,0
+"TIME, National Safety Council, Elsevier Ltd.",Method,0.7391304347826086,3,1,0,0,0,0
+"TIME, National Safety Council",Elsevier Ltd.,0.8558139534883721,2,1,0,0,0,0
+"TIME, National Safety Council","Elsevier Ltd., ON",0.7488372093023256,2,2,0,0,0,0
+"TIME, National Safety Council, ON",Elsevier Ltd.,0.8609625668449198,3,1,0,0,0,0
+"National Safety Council, Research",Safety,0.5609756097560976,2,1,0,0,0,0
+"National Safety Council, Research","Safety, Elsevier Ltd.",0.516260162601626,2,2,0,0,0,0
+"Safety, National Safety Council, Research",Elsevier Ltd.,0.9202898550724636,3,1,0,0,0,0
+"National Safety Council, Elsevier Ltd., Research",Safety,0.5990566037735849,3,1,0,0,0,0
+"National Safety Council, Research",Method,0.6626016260162602,2,1,0,0,0,0
+"National Safety Council, Research","Method, ON",0.5934959349593496,2,2,0,0,0,0
+"National Safety Council, Research, ON",Method,0.6822429906542056,3,1,0,0,0,0
+"National Safety Council, Research","Method, Elsevier Ltd., ON",0.532520325203252,2,3,0,0,0,0
+"Method, National Safety Council, Research","Elsevier Ltd., ON",0.803680981595092,3,2,0,0,0,0
+"National Safety Council, Elsevier Ltd., Research","Method, ON",0.6179245283018868,3,2,0,0,0,0
+"ON, National Safety Council, Research","Method, Elsevier Ltd.",0.6121495327102804,3,2,0,0,0,0
+"Method, ON, National Safety Council, Research",Elsevier Ltd.,0.8972602739726028,4,1,0,0,0,0
+"ON, National Safety Council, Elsevier Ltd., Research",Method,0.7043010752688172,4,1,0,0,0,0
+"National Safety Council, Research","Method, Elsevier Ltd.",0.6016260162601627,2,2,0,0,0,0
+"Method, National Safety Council, Research",Elsevier Ltd.,0.9079754601226994,3,1,0,0,0,0
+"National Safety Council, Elsevier Ltd., Research",Method,0.6981132075471698,3,1,0,0,0,0
+"National Safety Council, Research",Elsevier Ltd.,0.8617886178861789,2,1,0,0,0,0
+"National Safety Council, Research","Elsevier Ltd., ON",0.7560975609756098,2,2,0,0,0,0
+"National Safety Council, Research, ON",Elsevier Ltd.,0.8691588785046729,3,1,0,0,0,0
+"CONCLUSIONS, National Safety Council",Safety,0.5382165605095541,2,1,0,0,0,0
+"CONCLUSIONS, National Safety Council, ON",Safety,0.5490196078431373,3,1,0,0,0,0
+"Safety, CONCLUSIONS, National Safety Council","Elsevier Ltd., ON",0.8165680473372781,3,2,0,0,0,0
+"Safety, CONCLUSIONS, Elsevier Ltd.","National Safety Council, ON",0.5149253731343284,3,2,0,0,0,0
+"CONCLUSIONS, National Safety Council, ON","Safety, Elsevier Ltd.",0.5411764705882353,3,2,0,0,0,0
+"Safety, CONCLUSIONS, National Safety Council, ON",Elsevier Ltd.,0.9857142857142858,4,1,0,0,0,0
+"Safety, CONCLUSIONS, Elsevier Ltd., ON",National Safety Council,0.6359447004608295,4,1,0,0,0,0
+"CONCLUSIONS, National Safety Council, Elsevier Ltd., ON",Safety,0.5542168674698795,4,1,0,0,0,0
+"CONCLUSIONS, National Safety Council","Safety, Elsevier Ltd.",0.5318471337579618,2,2,0,0,0,0
+"Safety, CONCLUSIONS, National Safety Council",Elsevier Ltd.,0.9881656804733728,3,1,0,0,0,0
+"Safety, CONCLUSIONS, Elsevier Ltd.",National Safety Council,0.6231343283582089,3,1,0,0,0,0
+"CONCLUSIONS, National Safety Council, Elsevier Ltd.",Safety,0.5422077922077922,3,1,0,0,0,0
+"CONCLUSIONS, National Safety Council",Method,0.6305732484076433,2,1,0,0,0,0
+"CONCLUSIONS, National Safety Council","Method, ON",0.5254777070063694,2,2,0,0,0,0
+"CONCLUSIONS, National Safety Council, ON",Method,0.6470588235294118,3,1,0,0,0,0
+"CONCLUSIONS, National Safety Council","Method, Elsevier Ltd., ON",0.5191082802547771,2,3,0,0,0,0
+"Method, CONCLUSIONS, National Safety Council","Elsevier Ltd., ON",0.8232323232323232,3,2,0,0,0,0
+"CONCLUSIONS, National Safety Council, Elsevier Ltd.","Method, ON",0.5292207792207793,3,2,0,0,0,0
+"CONCLUSIONS, National Safety Council, ON","Method, Elsevier Ltd.",0.6392156862745098,3,2,0,0,0,0
+"Method, CONCLUSIONS, Elsevier Ltd.","National Safety Council, ON",0.6392156862745098,3,2,0,0,0,0
+"Method, CONCLUSIONS, National Safety Council, ON",Elsevier Ltd.,0.987878787878788,4,1,0,0,0,0
+"CONCLUSIONS, National Safety Council, Elsevier Ltd., ON",Method,0.6546184738955824,4,1,0,0,0,0
+"Method, CONCLUSIONS, Elsevier Ltd., ON",National Safety Council,0.7688679245283019,4,1,0,0,0,0
+"CONCLUSIONS, National Safety Council","Method, Elsevier Ltd.",0.6242038216560509,2,2,0,0,0,0
+"Method, CONCLUSIONS, National Safety Council",Elsevier Ltd.,0.98989898989899,3,1,0,0,0,0
+"Method, CONCLUSIONS, Elsevier Ltd.",National Safety Council,0.7686274509803922,3,1,0,0,0,0
+"CONCLUSIONS, National Safety Council, Elsevier Ltd.",Method,0.6363636363636364,3,1,0,0,0,0
+"CONCLUSIONS, National Safety Council","Elsevier Ltd., ON",0.7929936305732485,2,2,0,0,0,0
+"CONCLUSIONS, National Safety Council, ON",Elsevier Ltd.,0.976470588235294,3,1,0,0,0,0
+"CONCLUSIONS, National Safety Council",Elsevier Ltd.,0.9808917197452228,2,1,0,0,0,0
+National Safety Council,Safety,0.5140758873929009,1,1,0,0,0,0
+"Safety, National Safety Council",Method,0.7095238095238096,2,1,0,0,0,0
+"Method, National Safety Council",Safety,0.5549348230912476,2,1,0,0,0,0
+"Safety, National Safety Council","Method, ON",0.6142857142857143,2,2,0,0,0,0
+"Safety, National Safety Council, ON",Method,0.7186629526462396,3,1,0,0,0,0
+"Method, National Safety Council, ON",Safety,0.567032967032967,3,1,0,0,0,0
+"Safety, National Safety Council","Method, Elsevier Ltd., ON",0.5619047619047619,2,3,0,0,0,0
+"Safety, National Safety Council, Method","Elsevier Ltd., ON",0.7919463087248322,3,2,0,0,0,0
+"Safety, National Safety Council, Elsevier Ltd.","Method, ON",0.6276595744680851,3,2,0,0,0,0
+"Safety, National Safety Council, ON","Method, Elsevier Ltd.",0.6573816155988857,3,2,0,0,0,0
+"Method, National Safety Council, ON","Safety, Elsevier Ltd.",0.5186813186813187,3,2,0,0,0,0
+"Safety, ON, National Safety Council, Method",Elsevier Ltd.,0.9147286821705426,4,1,0,0,0,0
+"Safety, National Safety Council, Elsevier Ltd., ON",Method,0.735202492211838,4,1,0,0,0,0
+"Method, National Safety Council, Elsevier Ltd., ON",Safety,0.5784313725490197,4,1,0,0,0,0
+"Safety, National Safety Council","Method, Elsevier Ltd.",0.65,2,2,0,0,0,0
+"Method, National Safety Council","Safety, Elsevier Ltd.",0.5083798882681564,2,2,0,0,0,0
+"Safety, National Safety Council, Elsevier Ltd.",Method,0.726063829787234,3,1,0,0,0,0
+"Safety, National Safety Council, Method",Elsevier Ltd.,0.9161073825503356,3,1,0,0,0,0
+"Method, National Safety Council, Elsevier Ltd.",Safety,0.5605749486652978,3,1,0,0,0,0
+"National Safety Council, ON",Safety,0.5358208955223881,2,1,0,0,0,0
+"Safety, National Safety Council","Elsevier Ltd., ON",0.7642857142857142,2,2,0,0,0,0
+"Safety, National Safety Council, ON",Elsevier Ltd.,0.8941504178272981,3,1,0,0,0,0
+"National Safety Council, Elsevier Ltd., ON",Safety,0.5506003430531733,3,1,0,0,0,0
+"Safety, National Safety Council",Elsevier Ltd.,0.8952380952380953,2,1,0,0,0,0
+"National Safety Council, Elsevier Ltd.",Safety,0.5310734463276836,2,1,0,0,0,0
+National Safety Council,Method,0.6572827417380661,1,1,0,0,0,0
+National Safety Council,"Method, ON",0.5569155446756426,1,2,0,0,0,0
+"National Safety Council, ON",Method,0.6791044776119403,2,1,0,0,0,0
+"Method, National Safety Council","Elsevier Ltd., ON",0.7597765363128491,2,2,0,0,0,0
+"National Safety Council, Elsevier Ltd.","Method, ON",0.576271186440678,2,2,0,0,0,0
+"National Safety Council, ON","Method, Elsevier Ltd.",0.608955223880597,2,2,0,0,0,0
+"Method, National Safety Council, ON",Elsevier Ltd.,0.8967032967032967,3,1,0,0,0,0
+"National Safety Council, Elsevier Ltd., ON",Method,0.6998284734133791,3,1,0,0,0,0
+National Safety Council,"Method, Elsevier Ltd.",0.5960832313341493,1,2,0,0,0,0
+"Method, National Safety Council",Elsevier Ltd.,0.9068901303538176,2,1,0,0,0,0
+"National Safety Council, Elsevier Ltd.",Method,0.6878531073446328,2,1,0,0,0,0
+National Safety Council,"Elsevier Ltd., ON",0.7135862913096696,1,2,0,0,0,0
+"National Safety Council, ON",Elsevier Ltd.,0.8701492537313433,2,1,0,0,0,0
+National Safety Council,Elsevier Ltd.,0.8665850673194615,1,1,0,0,0,0
+"Of project, Research, ON",Management,0.5145228215767634,2,1,1,0,0,0
+"The project, Of project",Management,0.5401929260450161,0,1,2,0,0,0
+"The project, Of project, ON",Management,0.5643153526970954,1,1,2,0,0,0
+"The risk, AHP",Method,0.5668016194331984,1,1,0,0,1,0
+AHP,Method,0.5357575757575758,1,1,0,0,0,0
+"AHP, ON",Method,0.5473856209150327,2,1,0,0,0,0
+"MN, Health risk",CU,0.7378048780487805,1,1,0,0,1,0
+"MN, Health risk",PB,0.7682926829268293,1,1,0,0,1,0
+"MN, AL",CU,0.7590361445783133,2,1,0,0,0,0
+"AL, CU",MN,0.5915492957746479,2,1,0,0,0,0
+"MN, MG",PB,0.684,2,1,0,0,0,0
+"MN, MG","PB, CU",0.596,2,2,0,0,0,0
+"MN, MG, CU",PB,0.8097826086956522,3,1,0,0,0,0
+"MN, MG, PB",CU,0.8713450292397661,3,1,0,0,0,0
+"MN, MG",CU,0.736,2,1,0,0,0,0
+"MN, ON",PB,0.584,2,1,0,0,0,0
+"MN, CU, ON",PB,0.7714285714285715,3,1,0,0,0,0
+"MN, PB, ON",CU,0.8321917808219178,3,1,0,0,0,0
+"MN, ON",CU,0.63,2,1,0,0,0,0
+MN,PB,0.6125592417061612,1,1,0,0,0,0
+MN,"PB, CU",0.518957345971564,1,2,0,0,0,0
+"MN, CU",PB,0.7992700729927007,2,1,0,0,0,0
+"MN, PB",CU,0.8471953578336557,2,1,0,0,0,0
+MN,CU,0.6492890995260664,1,1,0,0,0,0
+"the Construction Industry, Management, ON",Research,0.5355805243445693,3,1,0,0,0,0
+"TRACE, PB",CU,0.7702127659574468,2,1,0,0,0,0
+"TRACE, CU",PB,0.7702127659574468,2,1,0,0,0,0
+"Ecological risk, PB, ON",CU,0.8131868131868132,2,1,0,0,1,0
+"Ecological risk, CU, ON",PB,0.8457142857142858,2,1,0,0,1,0
+"Ecological risk, PB",CU,0.8323699421965318,1,1,0,0,1,0
+"Ecological risk, CU",PB,0.8834355828220859,1,1,0,0,1,0
+"AL, PB",CU,0.8109452736318408,2,1,0,0,0,0
+"AL, CU",PB,0.7652582159624414,2,1,0,0,0,0
+"Century, IMPACTS",Climate,0.7562189054726368,2,1,0,0,0,0
+"Century, IMPACTS","Climate, ON",0.6268656716417911,2,2,0,0,0,0
+"Century, IMPACTS, ON",Climate,0.7411764705882353,3,1,0,0,0,0
+"Originality, FOCUS",PURPOSE,0.968503937007874,2,1,0,0,0,0
+"COST, Originality",PURPOSE,0.9428571428571428,2,1,0,0,0,0
+"Originality, Planning",PURPOSE,0.9662162162162162,2,1,0,0,0,0
+"Originality, MAIN","PURPOSE, ON",0.754601226993865,2,2,0,0,0,0
+"Originality, MAIN, ON",PURPOSE,0.8785714285714286,3,1,0,0,0,0
+"Originality, MAIN",PURPOSE,0.8773006134969326,2,1,0,0,0,0
+"Originality, Communities","PURPOSE, ON",0.7607361963190185,2,2,0,0,0,0
+"PURPOSE, Communities, ON",Originality,0.543859649122807,3,1,0,0,0,0
+"Originality, Communities, ON",PURPOSE,0.9612403100775194,3,1,0,0,0,0
+"PURPOSE, Communities",Originality,0.5358361774744027,2,1,0,0,0,0
+"Originality, Communities",PURPOSE,0.9631901840490796,2,1,0,0,0,0
+"Originality, HELP","PURPOSE, ON",0.7878787878787878,2,2,0,0,0,0
+"HELP, Originality, ON",PURPOSE,0.9558823529411764,3,1,0,0,0,0
+"Originality, HELP",PURPOSE,0.9393939393939394,2,1,0,0,0,0
+"Originality, The risk","PURPOSE, ON",0.7674418604651163,1,2,0,0,1,0
+"Originality, The risk, ON",PURPOSE,0.9230769230769232,2,1,0,0,1,0
+"Originality, The risk",PURPOSE,0.9127906976744186,1,1,0,0,1,0
+"Originality, Economic","PURPOSE, ON",0.7942857142857143,2,2,0,0,0,0
+"Originality, Economic, ON",PURPOSE,0.9328859060402684,3,1,0,0,0,0
+"Originality, Economic",PURPOSE,0.9257142857142856,2,1,0,0,0,0
+"Originality, IMPACTS","PURPOSE, ON",0.8983050847457628,2,2,0,0,0,0
+"Originality, IMPACTS, ON",PURPOSE,0.9814814814814816,3,1,0,0,0,0
+"Originality, IMPACTS",PURPOSE,0.9830508474576272,2,1,0,0,0,0
+"Social, Originality","PURPOSE, ON",0.770949720670391,2,2,0,0,0,0
+"Social, Originality, ON",PURPOSE,0.9324324324324323,3,1,0,0,0,0
+"Social, Originality",PURPOSE,0.9385474860335196,2,1,0,0,0,0
+"PURPOSE, Disaster risk","Originality, ON",0.5975609756097561,1,2,0,0,1,0
+"Originality, Disaster risk","PURPOSE, ON",0.8032786885245902,1,2,0,0,1,0
+"PURPOSE, Disaster risk, ON",Originality,0.75,2,1,0,0,1,0
+"Originality, Disaster risk, ON",PURPOSE,0.9932432432432432,2,1,0,0,1,0
+"PURPOSE, Disaster risk",Originality,0.7357723577235772,1,1,0,0,1,0
+"Originality, Disaster risk",PURPOSE,0.989071038251366,1,1,0,0,1,0
+"Originality, Community",Research,0.654054054054054,2,1,0,0,0,0
+"Originality, Community","PURPOSE, ON",0.7783783783783784,2,2,0,0,0,0
+"Originality, Community, ON",PURPOSE,0.972972972972973,3,1,0,0,0,0
+"Originality, Community",PURPOSE,0.972972972972973,2,1,0,0,0,0
+"TIME, Originality",Research,0.5801886792452831,2,1,0,0,0,0
+"TIME, Originality","PURPOSE, ON",0.7216981132075472,2,2,0,0,0,0
+"TIME, Originality, ON",PURPOSE,0.9161676646706588,3,1,0,0,0,0
+"TIME, Originality",PURPOSE,0.9056603773584906,2,1,0,0,0,0
+"Climate, Originality","PURPOSE, ON",0.8037383177570093,2,2,0,0,0,0
+"Climate, Originality, ON",PURPOSE,0.9772727272727272,3,1,0,0,0,0
+"Climate, Originality",PURPOSE,0.97196261682243,2,1,0,0,0,0
+"Understanding, Originality",Research,0.7276595744680852,2,1,0,0,0,0
+"Understanding, Originality","ON, Research",0.6212765957446809,2,2,0,0,0,0
+"Understanding, Originality, ON",Research,0.7336683417085427,3,1,0,0,0,0
+"Understanding, Originality","ON, PURPOSE, Research",0.6,2,3,0,0,0,0
+"Understanding, Originality, Research","PURPOSE, ON",0.8245614035087719,3,2,0,0,0,0
+"Understanding, Originality, PURPOSE","ON, Research",0.6238938053097345,3,2,0,0,0,0
+"Understanding, Originality, ON","PURPOSE, Research",0.7085427135678392,3,2,0,0,0,0
+"Understanding, ON, Originality, Research",PURPOSE,0.9657534246575342,4,1,0,0,0,0
+"Understanding, ON, Originality, PURPOSE",Research,0.7421052631578947,4,1,0,0,0,0
+"Understanding, ON, PURPOSE, Research",Originality,0.6077586206896551,4,1,0,0,0,0
+"Understanding, Originality","PURPOSE, Research",0.7063829787234043,2,2,0,0,0,0
+"Understanding, PURPOSE, Originality",Research,0.7345132743362832,3,1,0,0,0,0
+"Understanding, PURPOSE, Research",Originality,0.5804195804195804,3,1,0,0,0,0
+"Understanding, Originality, Research",PURPOSE,0.9707602339181286,3,1,0,0,0,0
+"Understanding, Originality","PURPOSE, ON",0.8085106382978723,2,2,0,0,0,0
+"Understanding, Originality, ON",PURPOSE,0.9547738693467336,3,1,0,0,0,0
+"Understanding, Originality",PURPOSE,0.9617021276595744,2,1,0,0,0,0
+"Method, Originality",Research,0.5546875,2,1,0,0,0,0
+"Method, Originality","PURPOSE, Research",0.51953125,2,2,0,0,0,0
+"Method, PURPOSE, Originality",Research,0.5659574468085107,3,1,0,0,0,0
+"Method, Originality, Research",PURPOSE,0.9366197183098592,3,1,0,0,0,0
+"Method, Originality","PURPOSE, ON",0.78515625,2,2,0,0,0,0
+"Method, Originality, ON",PURPOSE,0.9220183486238532,3,1,0,0,0,0
+"Method, Originality",PURPOSE,0.91796875,2,1,0,0,0,0
+"Originality, Management",Research,0.6724511930585684,2,1,0,0,0,0
+"Originality, Management","ON, Research",0.561822125813449,2,2,0,0,0,0
+"Originality, Management, ON",Research,0.6692506459948321,3,1,0,0,0,0
+"Originality, Management","ON, PURPOSE, Research",0.5466377440347071,2,3,0,0,0,0
+"Originality, Management, Research","PURPOSE, ON",0.8129032258064516,3,2,0,0,0,0
+"PURPOSE, Originality, Management","ON, Research",0.5740318906605922,3,2,0,0,0,0
+"Originality, Management, ON","PURPOSE, Research",0.6511627906976745,3,2,0,0,0,0
+"ON, Originality, Management, Research",PURPOSE,0.972972972972973,4,1,0,0,0,0
+"PURPOSE, Originality, Management, ON",Research,0.6810810810810811,4,1,0,0,0,0
+"ON, PURPOSE, Management, Research",Originality,0.5070422535211268,4,1,0,0,0,0
+"Originality, Management","PURPOSE, Research",0.6507592190889371,2,2,0,0,0,0
+"PURPOSE, Originality, Management",Research,0.683371298405467,3,1,0,0,0,0
+"PURPOSE, Management, Research",Originality,0.5042016806722689,3,1,0,0,0,0
+"Originality, Management, Research",PURPOSE,0.967741935483871,3,1,0,0,0,0
+"Originality, Management","PURPOSE, ON",0.8026030368763557,2,2,0,0,0,0
+"Originality, Management, ON",PURPOSE,0.9560723514211886,3,1,0,0,0,0
+"Originality, Management",PURPOSE,0.9522776572668112,2,1,0,0,0,0
+Originality,Research,0.5947030497592295,1,1,0,0,0,0
+"Originality, ON",Research,0.6083984375,2,1,0,0,0,0
+"PURPOSE, Originality","ON, Research",0.5128205128205128,2,2,0,0,0,0
+"Originality, ON","PURPOSE, Research",0.5859375,2,2,0,0,0,0
+"Originality, Research","PURPOSE, ON",0.8097165991902834,2,2,0,0,0,0
+"PURPOSE, Originality, ON",Research,0.6204756980351603,3,1,0,0,0,0
+"Originality, Research, ON",PURPOSE,0.9630818619582664,3,1,0,0,0,0
+Originality,"PURPOSE, Research",0.5706260032102729,1,2,0,0,0,0
+"PURPOSE, Originality",Research,0.6076923076923076,2,1,0,0,0,0
+"Originality, Research",PURPOSE,0.9595141700404858,2,1,0,0,0,0
+Originality,"PURPOSE, ON",0.776083467094703,1,2,0,0,0,0
+"Originality, ON",PURPOSE,0.9443359375,2,1,0,0,0,0
+Originality,PURPOSE,0.9390048154093098,1,1,0,0,0,0
+"Crash risk, Types",Safety,0.6492890995260664,1,1,0,0,1,0
+"Crash risk, Method",Safety,0.6681034482758621,1,1,0,0,1,0
+"Crash risk, Characteristics",Safety,0.5887096774193549,1,1,0,0,1,0
+"Crash risk, Characteristics","Safety, ON",0.5080645161290323,1,2,0,0,1,0
+"Crash risk, Characteristics, ON",Safety,0.5943396226415094,2,1,0,0,1,0
+"Crash risk, Elsevier Ltd.",Safety,0.5365853658536586,1,1,0,0,1,0
+"Crash risk, Elsevier Ltd., ON",Safety,0.5434782608695652,2,1,0,0,1,0
+"Crash risk, Research",Safety,0.599476439790576,1,1,0,0,1,0
+"Crash risk, Research","Safety, ON",0.5471204188481675,1,2,0,0,1,0
+"Crash risk, Research, ON",Safety,0.6371951219512195,2,1,0,0,1,0
+"Crash risk, TIME",Safety,0.5797413793103449,1,1,0,0,1,0
+"Crash risk, TIME, ON",Safety,0.5882352941176471,2,1,0,0,1,0
+Crash risk,Safety,0.5867704280155642,0,1,0,0,1,0
+"Crash risk, ON",Safety,0.6013257575757576,1,1,0,0,1,0
+"Planning, Disaster risk",Management,0.5368852459016393,1,1,0,0,1,0
+"PURPOSE, Disaster risk",Research,0.5813008130081301,1,1,0,0,1,0
+"Communities, Disaster risk",Community,0.5181159420289855,1,1,0,0,1,0
+"Farmers, IMPACTS",Climate,0.5754385964912281,2,1,0,0,0,0
+"Farmers, IMPACTS, ON",Climate,0.5587044534412956,3,1,0,0,0,0
+"PURPOSE, Practitioners",Research,0.6146341463414634,2,1,0,0,0,0
+"Understanding, Practitioners",Research,0.5274725274725275,2,1,0,0,0,0
+"Understanding, Practitioners, ON",Research,0.543859649122807,3,1,0,0,0,0
+"Interval, Management",Method,0.5444015444015444,2,1,0,0,0,0
+"Social, Sustainable Development",Economic,0.571072319201995,2,1,0,0,0,0
+"Social, Sustainable Development, ON",Economic,0.5666666666666667,3,1,0,0,0,0
+"Correlation, PB",CU,0.7073170731707317,2,1,0,0,0,0
+"Correlation, CU",PB,0.8579881656804734,2,1,0,0,0,0
+"mu, PB",CU,0.5100401606425703,2,1,0,0,0,0
+"mu, CU",PB,0.6978021978021978,2,1,0,0,0,0
+"PB, Research",CU,0.6255924170616114,2,1,0,0,0,0
+"CU, Research",PB,0.7096774193548387,2,1,0,0,0,0
+"Characteristics, PB",CU,0.6893203883495146,2,1,0,0,0,0
+"Characteristics, CU",PB,0.7553191489361702,2,1,0,0,0,0
+"uRban, PB",CU,0.6733067729083665,2,1,0,0,0,0
+"uRban, CU",PB,0.8711340206185567,2,1,0,0,0,0
+"CU, -1",MG,0.698019801980198,2,1,0,0,0,0
+"PB, -1",CU,0.6024590163934426,2,1,0,0,0,0
+"CU, -1",PB,0.7277227722772277,2,1,0,0,0,0
+"ACID, PB",CU,0.6633663366336634,2,1,0,0,0,0
+"ACID, CU",PB,0.6504854368932039,2,1,0,0,0,0
+"LEAD, CU",PB,0.9047619047619048,2,1,0,0,0,0
+"The risk, PB",CU,0.6076923076923076,1,1,0,0,1,0
+"The risk, CU",PB,0.728110599078341,1,1,0,0,1,0
+"Method, PB",CU,0.6345381526104418,2,1,0,0,0,0
+"Method, CU",PB,0.7181818181818181,2,1,0,0,0,0
+"MAIN, PB",CU,0.6868327402135231,2,1,0,0,0,0
+"MAIN, CU",PB,0.7845528455284553,2,1,0,0,0,0
+"Chemical, PB",CU,0.5921052631578947,2,1,0,0,0,0
+"Chemical, CU",PB,0.6741573033707865,2,1,0,0,0,0
+"Health risk, PB, ON",CU,0.6208530805687204,2,1,0,0,1,0
+"Health risk, CU, ON",PB,0.8136645962732919,2,1,0,0,1,0
+"Health risk, PB",CU,0.6493506493506493,1,1,0,0,1,0
+"Health risk, CU",PB,0.8503401360544217,1,1,0,0,1,0
+"Content, PB, ON",CU,0.6053811659192825,3,1,0,0,0,0
+"Content, CU, ON",PB,0.6887755102040817,3,1,0,0,0,0
+"Content, PB",CU,0.6648351648351648,2,1,0,0,0,0
+"Content, CU",PB,0.7245508982035929,2,1,0,0,0,0
+"ORder, PB, ON",CU,0.7405857740585774,3,1,0,0,0,0
+"ORder, CU, ON",PB,0.8271028037383178,3,1,0,0,0,0
+"ORder, PB",CU,0.7566909975669099,2,1,0,0,0,0
+"ORder, CU",PB,0.8405405405405405,2,1,0,0,0,0
+"MG, PB, ON",CU,0.625,3,1,0,0,0,0
+"MG, CU, ON",PB,0.6981132075471698,3,1,0,0,0,0
+"MG, PB",CU,0.6673003802281369,2,1,0,0,0,0
+"MG, CU",PB,0.7532188841201717,2,1,0,0,0,0
+"PB, ON",CU,0.6021959459459459,2,1,0,0,0,0
+"CU, ON",PB,0.6726415094339623,2,1,0,0,0,0
+PB,CU,0.6309760956175299,1,1,0,0,0,0
+CU,PB,0.7121978639685217,1,1,0,0,0,0
+"Agriculture, Social",Economic,0.568075117370892,2,1,0,0,0,0
+"Agriculture, IMPACTS",Climate,0.5213903743315508,2,1,0,0,0,0
+"Agriculture, IMPACTS, ON",Climate,0.5327380952380952,3,1,0,0,0,0
+"Learning, Validation",Machine,0.6666666666666666,2,1,0,0,0,0
+"Machine, Validation",Learning,0.7471264367816092,2,1,0,0,0,0
+"PURPOSE, Contributes",Research,0.6454545454545455,2,1,0,0,0,0
+"PURPOSE, Contributes","ON, Research",0.5636363636363636,2,2,0,0,0,0
+"PURPOSE, Contributes, ON",Research,0.6492146596858639,3,1,0,0,0,0
+"PB, -1",MG,0.7049180327868853,2,1,0,0,0,0
+"LEAD, MG",PB,0.5078740157480315,2,1,0,0,0,0
+"Machine, Networks",Learning,0.8,2,1,0,0,0,0
+"Machine, HELP",Learning,0.6553398058252428,2,1,0,0,0,0
+"Machine, State",Learning,0.5789473684210527,2,1,0,0,0,0
+"Machine, MAIN",Learning,0.568075117370892,2,1,0,0,0,0
+"Machine, Management",Learning,0.5914634146341463,2,1,0,0,0,0
+"Machine, Management, ON",Learning,0.6015625,3,1,0,0,0,0
+"Machine, Research",Learning,0.6321585903083701,2,1,0,0,0,0
+"Machine, Research, ON",Learning,0.6281690140845071,3,1,0,0,0,0
+"Safety, Machine, ON",Learning,0.5092348284960422,3,1,0,0,0,0
+"Machine, TIME",Learning,0.589171974522293,2,1,0,0,0,0
+"Machine, TIME, ON",Learning,0.5956175298804781,3,1,0,0,0,0
+Machine,Learning,0.5552973977695167,1,1,0,0,0,0
+"Machine, ON",Learning,0.5628048780487804,2,1,0,0,0,0
+"Understanding, Science, ON",Research,0.5253623188405797,3,1,0,0,0,0
+"Science, Social",Research,0.5261958997722096,2,1,0,0,0,0
+"Science, Social, ON",Research,0.5373563218390804,3,1,0,0,0,0
+"CAR, CONCLUSIONS",Safety,0.5327868852459017,2,1,0,0,0,0
+"CAR, Characteristics",Safety,0.5041551246537396,2,1,0,0,0,0
+"CAR, Characteristics, ON",Safety,0.525974025974026,3,1,0,0,0,0
+"CAR, TIME, ON",Safety,0.5094017094017094,3,1,0,0,0,0
+"Workers, Management",Safety,0.5244755244755245,2,1,0,0,0,0
+"Workers, Management, ON",Safety,0.5347432024169184,3,1,0,0,0,0
+"RISE, Planning",SEA,0.6081081081081081,2,1,0,0,0,0
+"RISE, Coastal, IMPACTS",SEA,0.944055944055944,3,1,0,0,0,0
+"RISE, SEA, IMPACTS",Coastal,0.5947136563876652,3,1,0,0,0,0
+"SEA, Coastal, IMPACTS",RISE,0.6716417910447762,3,1,0,0,0,0
+"RISE, IMPACTS",Climate,0.601063829787234,2,1,0,0,0,0
+"RISE, SEA, IMPACTS",Climate,0.748898678414097,3,1,0,0,0,0
+"RISE, Climate, IMPACTS",SEA,0.7522123893805309,3,1,0,0,0,0
+"SEA, Climate, IMPACTS",RISE,0.6995884773662552,3,1,0,0,0,0
+"RISE, SEA, IMPACTS","Climate, ON",0.6035242290748899,3,2,0,0,0,0
+"RISE, Climate, IMPACTS","SEA, ON",0.6061946902654868,3,2,0,0,0,0
+"SEA, Climate, IMPACTS","RISE, ON",0.5637860082304527,3,2,0,0,0,0
+"RISE, SEA, IMPACTS, ON",Climate,0.7486338797814208,4,1,0,0,0,0
+"RISE, Climate, IMPACTS, ON",SEA,0.7486338797814208,4,1,0,0,0,0
+"SEA, Climate, IMPACTS, ON",RISE,0.685,4,1,0,0,0,0
+"RISE, IMPACTS, ON",Climate,0.5922330097087378,3,1,0,0,0,0
+"RISE, IMPACTS",SEA,0.6037234042553191,2,1,0,0,0,0
+"SEA, IMPACTS",RISE,0.5456730769230769,2,1,0,0,0,0
+"RISE, IMPACTS, ON",SEA,0.5922330097087378,3,1,0,0,0,0
+"SEA, IMPACTS, ON",RISE,0.5289017341040463,3,1,0,0,0,0
+"RISE, Coastal",Climate,0.5807962529274004,2,1,0,0,0,0
+"RISE, Coastal, ON",Climate,0.5897435897435898,3,1,0,0,0,0
+"RISE, Coastal, Climate","SEA, ON",0.6774193548387096,3,2,0,0,0,0
+"RISE, Coastal, ON","SEA, Climate",0.5384615384615384,3,2,0,0,0,0
+"SEA, Coastal, Climate","RISE, ON",0.5201238390092879,3,2,0,0,0,0
+"RISE, Coastal, SEA, ON",Climate,0.6064981949458483,4,1,0,0,0,0
+"RISE, Coastal, Climate, ON",SEA,0.9130434782608696,4,1,0,0,0,0
+"SEA, Coastal, Climate, ON",RISE,0.6970954356846473,4,1,0,0,0,0
+"RISE, SEA, Climate, ON",Coastal,0.5316455696202531,4,1,0,0,0,0
+"RISE, Coastal","SEA, Climate",0.5433255269320844,2,2,0,0,0,0
+"RISE, Coastal, SEA",Climate,0.596401028277635,3,1,0,0,0,0
+"RISE, Coastal, Climate",SEA,0.935483870967742,3,1,0,0,0,0
+"RISE, SEA, Climate",Coastal,0.5672371638141809,3,1,0,0,0,0
+"SEA, Coastal, Climate",RISE,0.718266253869969,3,1,0,0,0,0
+"RISE, Coastal","SEA, ON",0.6487119437939111,2,2,0,0,0,0
+"RISE, Coastal, ON",SEA,0.8878205128205128,3,1,0,0,0,0
+"RISE, SEA, ON",Coastal,0.5687885010266941,3,1,0,0,0,0
+"RISE, Coastal",SEA,0.911007025761124,2,1,0,0,0,0
+"RISE, SEA",Coastal,0.6003086419753086,2,1,0,0,0,0
+"RISE, SEA",Climate,0.6311728395061729,2,1,0,0,0,0
+"RISE, Climate",SEA,0.6400625978090767,2,1,0,0,0,0
+"SEA, Climate",RISE,0.5953420669577875,2,1,0,0,0,0
+"RISE, SEA, ON",Climate,0.648870636550308,3,1,0,0,0,0
+"RISE, Climate, ON",SEA,0.635814889336016,3,1,0,0,0,0
+"SEA, Climate, ON",RISE,0.5862708719851577,3,1,0,0,0,0
+"SEA, Communities",Coastal,0.6939890710382514,2,1,0,0,0,0
+"SEA, IMPACTS",Climate,0.5841346153846154,2,1,0,0,0,0
+"SEA, IMPACTS, ON",Climate,0.5780346820809249,3,1,0,0,0,0
+"Social, OBJECTIVES",Economic,0.5250836120401338,2,1,0,0,0,0
+"Method, CONCLUSIONS, Elsevier Ltd.",Safety,0.5372549019607843,3,1,0,0,0,0
+"Safety, CONCLUSIONS, Elsevier Ltd.",Method,0.5111940298507462,3,1,0,0,0,0
+"SAFE, Operations",Safety,0.5055762081784386,2,1,0,0,0,0
+"Social, Sustainability, Research",Economic,0.5415162454873647,3,1,0,0,0,0
+"Social, Sustainability",Economic,0.5725,2,1,0,0,0,0
+"Social, Sustainability, ON",Economic,0.5763993948562783,3,1,0,0,0,0
+"PURPOSE, Communities",Research,0.5221843003412969,2,1,0,0,0,0
+"Communities, Community, Economic",Social,0.5181518151815182,3,1,0,0,0,0
+"Communities, Community, Economic, ON",Social,0.5341880341880342,4,1,0,0,0,0
+"Technologies, Carbon, ON",Energy,0.5172413793103449,3,1,0,0,0,0
+"Social, Regional",Economic,0.5423728813559322,2,1,0,0,0,0
+"Social, Regional, ON",Economic,0.5632530120481928,3,1,0,0,0,0
+"Social, Carbon",Climate,0.5094339622641509,2,1,0,0,0,0
+"Types, SAFE",Safety,0.5087209302325582,2,1,0,0,0,0
+"Types, SAFE, ON",Safety,0.5335689045936396,3,1,0,0,0,0
+"Social, GROWTH",Economic,0.583710407239819,2,1,0,0,0,0
+"Social, GROWTH, ON",Economic,0.5988700564971752,3,1,0,0,0,0
+"Social, EFFICIENT",Economic,0.5143884892086331,2,1,0,0,0,0
+"Social, Energy",Economic,0.51138353765324,2,1,0,0,0,0
+"Social, Energy, ON",Economic,0.5265486725663717,3,1,0,0,0,0
+"Social, COST",Economic,0.5135542168674698,2,1,0,0,0,0
+"Social, COST, ON",Economic,0.51,3,1,0,0,0,0
+"Social, IMPACTS, Management",Economic,0.51171875,3,1,0,0,0,0
