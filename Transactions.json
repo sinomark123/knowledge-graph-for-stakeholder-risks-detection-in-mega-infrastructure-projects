@@ -2,11 +2,11 @@
     [
         "uses risk",
         "accident risk",
-        "operation risk"
+        "operation risk",
+        "TAR"
     ],
     [
-        "safety risk",
-        "interrelationships"
+        "safety risk"
     ],
     [
         "early risk",
@@ -14,16 +14,14 @@
     ],
     [
         "different risk",
-        "save",
-        "theoretically"
+        "Weibull"
     ],
     [],
     [
         "construction project",
         "struction project",
         "political risk",
-        "confirmatory factor analysis",
-        "the confirmatory factor analysis"
+        "CFA"
     ],
     [
         "quantified risk",
@@ -31,33 +29,34 @@
         "drought risk",
         "annual risk",
         "fed",
-        "fed",
-        "reliability analysis"
+        "CC",
+        "Correlation",
+        "Curve"
     ],
-    [
-        "the built environment"
-    ],
+    [],
     [
         "collapse risk",
-        "A risk",
-        "ie",
-        "reinforced concrete"
+        "A risk"
     ],
     [
         "mega project",
         "better risk",
         "site risk",
         "construction risk",
-        "active risk"
+        "active risk",
+        "Society of Civil Engineers",
+        "American Society of Civil Engineers",
+        "Society"
     ],
     [
-        "potential risk",
-        "water resources management"
+        "potential risk"
     ],
     [
         "collapse risk",
         "preliminary risk",
-        "rough set"
+        "SPA",
+        "U.",
+        "recognition"
     ],
     [
         "construction project",
@@ -66,9 +65,10 @@
         "developed risk",
         "impact risk",
         "classical risk",
-        "designers",
-        "onsite",
-        "assemblies"
+        "Society of Civil Engineers",
+        "American Society of Civil Engineers",
+        "Society",
+        "Improper"
     ],
     [
         "large project",
@@ -80,18 +80,18 @@
         "implementing risk"
     ],
     [
-        "intervene",
-        "management tool"
+        "Management",
+        "Safety"
     ],
     [
         "Customs risk",
         "customs risk",
-        "customs",
-        "customs"
+        "Customs"
     ],
     [
         "safety risk",
-        "seismic risk"
+        "seismic risk",
+        "CC"
     ],
     [
         "construction project",
@@ -101,26 +101,23 @@
         "based risk",
         "reliable risk",
         "installation risk",
-        "popular",
-        "images"
+        "recognition"
     ],
     [],
     [
         "total risk",
         "Total risk",
-        "crash risk",
-        "car"
+        "crash risk"
     ],
     [
         "The risk",
-        "demonstration"
+        "Method"
     ],
     [
         "energy risk",
         "joint risk",
         "water risk",
-        "northwest",
-        "m3"
+        "CITSMIP"
     ],
     [
         "sustainable project",
@@ -141,21 +138,22 @@
         "IBS project",
         "prototype risk",
         "critical risk",
-        "analytic network process",
-        "fuzzy analytic network process"
+        "DEMATEL",
+        "Building Information Modelling",
+        "Building Information",
+        "IBS",
+        "Method"
     ],
     [
-        "Natech risk"
+        "Natech risk",
+        "linear",
+        "Natech"
     ],
     [
-        "proper risk",
-        "quality management"
+        "proper risk"
     ],
     [
-        "driving risk",
-        "consulted",
-        "human factors",
-        "truck"
+        "driving risk"
     ],
     [
         "BOT project",
@@ -163,31 +161,29 @@
         "high risk",
         "low risk",
         "incorporates risk",
-        "consensus",
-        "cash flow"
+        "NPV"
     ],
     [
         "overall risk",
-        "collision risk",
-        "geographic information system",
-        "en",
-        "hot",
-        "airspace",
-        "geographic information"
+        "collision risk"
     ],
     [
         "traditional risk",
         "system risk",
-        "universal"
+        "Society of Civil Engineers",
+        "American Society of Civil Engineers",
+        "Society",
+        "DVR",
+        "TIC"
     ],
     [
-        "the analytical hierarchical process"
+        "FAHP",
+        "AHP"
     ],
     [
         "construction project",
         "struction project",
-        "exchange",
-        "success criteria"
+        "Data "
     ],
     [
         "infrastructure project",
@@ -201,19 +197,14 @@
         "instability risk"
     ],
     [
-        "defect risk",
-        "waterproof",
-        "environmental factors"
+        "defect risk"
     ],
     [
-        "intervene",
-        "management tool"
+        "Management",
+        "Safety"
     ],
     [
-        "transport risk",
-        "the decision makers",
-        "hazmat",
-        "superior"
+        "transport risk"
     ],
     [
         "PPP project",
@@ -221,11 +212,14 @@
         "critical risk",
         "legal risk",
         "PPP risk",
-        "reasonable risk"
+        "reasonable risk",
+        "PPP",
+        "SNA"
     ],
     [
         "different risk",
-        "real risk"
+        "real risk",
+        "SPA"
     ],
     [
         "resource project",
@@ -233,12 +227,7 @@
         "high risk",
         "The risk",
         "low risk",
-        "utilizing risk",
-        "value management",
-        "designer",
-        "value analysis",
-        "reliability analysis",
-        "utilizing"
+        "utilizing risk"
     ],
     [
         "A risk",
@@ -248,13 +237,12 @@
     [
         "Expressway project",
         "high risk",
-        "The risk",
-        "impressive"
+        "The risk"
     ],
     [
         "The risk",
         "Delphi risk",
-        "functionality"
+        "RCP"
     ],
     [
         "tunnel project",
@@ -263,7 +251,7 @@
         "reasonable risk",
         "dominating risk",
         "Accurate risk",
-        "administration"
+        "PPP"
     ],
     [
         "airport risk",
@@ -273,306 +261,17 @@
         "farm project",
         "reasonable risk",
         "quantitative risk",
-        "wind farm",
-        "farm",
-        "critical path method"
+        "CPM",
+        "facilitate"
     ],
     [
         "great risk",
         "climate risk",
-        "desire",
-        "ecosystem services",
-        "habitat",
-        "ecosystem services",
-        "habitat",
-        "recreational",
-        "express",
+        "Society of Civil Engineers",
+        "American Society of Civil Engineers",
+        "Coastal",
+        "Society",
+        "WTP",
         "people's"
-    ],
-    [
-        "critical risk",
-        "project risk",
-        "effective risk",
-        "robust risk",
-        "major risk"
-    ],
-    [
-        "overall risk",
-        "transmission risk"
-    ],
-    [
-        "drought risk",
-        "related risk",
-        "agriculture",
-        "agriculture"
-    ],
-    [
-        "building project",
-        "realistic project",
-        "qualitative risk",
-        "quantitative risk",
-        "current risk",
-        "qualitative risk analysis"
-    ],
-    [
-        "different risk",
-        "seismic risk",
-        "based risk",
-        "regional risk",
-        "encodes risk",
-        "spatially"
-    ],
-    [
-        "based risk",
-        "term risk",
-        "facilitate risk",
-        "scale risk",
-        "geographical information system",
-        "ideas"
-    ],
-    [
-        "detailed risk",
-        "portfolio risk",
-        "applying risk",
-        "research and development",
-        "emphasis"
-    ],
-    [
-        "traditional risk"
-    ],
-    [
-        "seismic risk",
-        "damage risk",
-        "particular risk",
-        "sustain"
-    ],
-    [
-        "based risk",
-        "existing risk",
-        "systemic",
-        "scientifically",
-        "safety standards"
-    ],
-    [
-        "corresponding risk",
-        "These risk",
-        "The risk",
-        "main risk",
-        "carbon"
-    ],
-    [
-        "Construction project",
-        "construction project",
-        "struction project",
-        "project risk",
-        "increased risk",
-        "explore risk"
-    ],
-    [
-        "dam project",
-        "infrastructure project",
-        "structure project",
-        "published risk",
-        "formal risk",
-        "balanced"
-    ],
-    [
-        "quantitative risk",
-        "societal risk"
-    ],
-    [
-        "Flood risk",
-        "flood risk"
-    ],
-    [
-        "best risk"
-    ],
-    [
-        "water project",
-        "PPP project",
-        "P project",
-        "examine risk",
-        "public private partnerships"
-    ],
-    [],
-    [
-        "reasonable risk",
-        "damage risk",
-        "probability risk"
-    ],
-    [
-        "A risk",
-        "potential risk",
-        "major risk"
-    ],
-    [
-        "construction project",
-        "struction project",
-        "based risk",
-        "identified risk",
-        "project risk",
-        "calculate risk",
-        "prepare risk"
-    ],
-    [
-        "The risk"
-    ],
-    [
-        "environmental quality standards",
-        "arsenic"
-    ],
-    [
-        "The risk"
-    ],
-    [
-        "construction project",
-        "struction project",
-        "include risk"
-    ],
-    [],
-    [
-        "enterprise risk",
-        "multi-criteria analysis",
-        "enterprise risk management",
-        "international standard",
-        "multi-criteria analysis and"
-    ],
-    [
-        "Flood risk",
-        "flood risk",
-        "evaluated risk",
-        "considers risk",
-        "locally",
-        "census"
-    ],
-    [
-        "Traditional risk",
-        "systematic risk",
-        "interacting risk",
-        "assessing risk",
-        "system dynamics",
-        "decision-making trial and evaluation laboratory",
-        "trial and evaluation laboratory",
-        "work package",
-        "capturing",
-        "trial"
-    ],
-    [
-        "proposed risk",
-        "traditional risk",
-        "designer"
-    ],
-    [
-        "geo risk",
-        "geotechnical risk",
-        "teaching risk",
-        "conventional risk"
-    ],
-    [
-        "supply project",
-        "case project",
-        "future project",
-        "T project",
-        "P project",
-        "BOOT project",
-        "comprehensive risk",
-        "financial risk",
-        "consortium",
-        "experiential"
-    ],
-    [
-        "s project",
-        "construction project",
-        "building project",
-        "forthcoming project",
-        "struction project",
-        "potential risk",
-        "based risk",
-        "gives risk",
-        "assessing risk",
-        "relates risk",
-        "novel risk",
-        "Effective risk",
-        "probable risk",
-        "intelligence"
-    ],
-    [
-        "preliminary risk",
-        "detailed risk",
-        "resultant risk",
-        "simplified risk",
-        "determine risk",
-        "fire risk",
-        "universal"
-    ],
-    [
-        "quantitative risk",
-        "expected risk"
-    ],
-    [
-        "investment project",
-        "major risk",
-        "correctness"
-    ],
-    [],
-    [
-        "movement risk"
-    ],
-    [
-        "noncarcinogenic risk",
-        "carcinogenic risk",
-        "pollution load",
-        "contamination factor"
-    ],
-    [
-        "conditional risk",
-        "spatial risk",
-        "consider risk",
-        "multidimensional",
-        "express"
-    ],
-    [
-        "construction project",
-        "struction project",
-        "The risk",
-        "project risk",
-        "verbal"
-    ],
-    [
-        "construction project",
-        "tunnel project",
-        "alternative project",
-        "struction project",
-        "hypothesis"
-    ],
-    [
-        "the risk priority number",
-        "automotive",
-        "the automotive industry"
-    ],
-    [],
-    [
-        "23 risk",
-        "inconvenience"
-    ],
-    [],
-    [
-        "system engineering",
-        "port security"
-    ],
-    [
-        "Most risk"
-    ],
-    [
-        "identify risk",
-        "critical risk",
-        "hypothesized risk",
-        "implementation risk",
-        "virtual reality",
-        "augmented reality",
-        "immersive"
-    ],
-    [
-        "blast risk"
     ]
 ]
