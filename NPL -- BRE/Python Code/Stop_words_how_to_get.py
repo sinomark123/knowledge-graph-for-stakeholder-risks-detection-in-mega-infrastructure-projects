@@ -1,14 +1,18 @@
+import openai
 import pandas as pd
 import spacy
 from flashtext import KeywordProcessor
 import nltk
 from langchain.llms import OpenAI
 import os
+from dotenv import load_dotenv, find_dotenv
 
+pathprefix = r"D:\Code Working Area\Jupyter\knowledge-graph-for-stakeholder-risks-detection-in-mega-infrastructure-projects\ExcelData"
+openai.api_key="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"
+os.environ["OPENAI_API_KEY"] = "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"
+load_dotenv(find_dotenv())
 
 class File_Path:
-
-    pathprefix = r"D:\Code Working Area\Jupyter\knowledge-graph-for-stakeholder-risks-detection-in-mega-infrastructure-projects\ExcelData"
     jsfile = pathprefix + "\\Transactions.json"
     stop_words = pathprefix + "\\stop_words\\stop_words_stakeholder.txt"
     unknow_long_phrase = pathprefix + "\\stop_words\\unknow_long.txt"
@@ -43,14 +47,16 @@ class File_Path:
 
 
 class Filtering(File_Path):
-    def __init__(self):
+    def __init__(self, dataset: pd.DataFrame):
         super().__init__()
-        os.environ["OPENAI_API_KEY"] = "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"
-
-    # do this for keyword abstract
-    prjkey_list = super().prj_key["Article"].to_list()
-    riskey_list = super().risk_key["Abstract"].to_list()
-    stkey_list = super().stk_key.Abstract.to_list()
+        self.df=dataset
+        # self.read_source()
+        self.read_keyword()
+        self.spacy_init()
+        # do this for keyword abstract
+        self.prjkey_list = self.prj_key["Article"].to_list()
+        self.riskey_list = self.risk_key["Abstract"].to_list()
+        self.stkey_list = self.stk_key.Abstract.to_list()
 
     def keyprocess(self):
         """initialize keywordprocessor class"""
@@ -60,25 +66,46 @@ class Filtering(File_Path):
     def abst(self, args: str):
         return self.keypro.extract_keywords(args)
 
-    def nltk_tagger(self, trainset: pd.DataFrame = super().risk_sor.Abstract):
-        """extract out the keyword only in nrisk"""
-        res = trainset.apply(self.abst)
-        temp = res.explode(ignore_index=True).dropna(how="any")
-        tempres = temp.value_counts().to_frame()
-        tempres["words"] = tempres.index
-        tempres.reset_index(drop=True, inplace=True)
-        tempres.words = tempres.words.str.lower()
+    def pre_suffix_strip(self, ffix: str, df: pd.DataFrame):
+        if ffix=="prj":
+            df["word"]=df.words.apply(lambda x: x.replace(" project", ""))
+        elif ffix=="risk":
+            df["word"]=df.words.apply(lambda x: x.replace(" risk", ""))
+        return df
 
+    def keyword_identify(self, dataset):
+        prj_mask, risk_mask=dataset.words.apply(lambda x: "project" in x[-8:]), dataset.words.apply(lambda x: "risk" in x[-5:])
+        prj, risk=self.pre_suffix_strip("prj", dataset[prj_mask]), self.pre_suffix_strip("risk", dataset[risk_mask])
+        return prj, risk
+
+    def stopword_detection(self, trainset: pd.DataFrame = None):
+        """extract out the keyword only in nrisk"""
+        if not trainset: trainset=self.df
+        trainset.reset_index(drop=True, inplace=True)
+        trainset.words = trainset.words.str.lower()
+
+        prj, risk=self.keyword_identify(trainset)
+        stk=trainset[~trainset.index.isin(prj.index) & ~trainset.index.isin(risk.index)]
+        stk["word"]=stk.words
+        prj, risk=self.nltk_tagger(prj), self.nltk_tagger(risk)
+        stk=self.nltk_tagger(stk)
+        # stk=self.stakeholder_filter(pd.DataFrame(stk, columns=["words"]))
+
+        self.update_stop_remain([*prj, *risk])
+
+    def nltk_tagger(self, trainset: pd.DataFrame = None):
         """use NLTK tag on words, then only get Noun-realted words
         store the rest corpous as stop_words, named NLTK_reuslt.xlsx"""
-        tempres["word type"] = tempres.words.apply(lambda row: nltk.pos_tag(nltk.word_tokenize(row))[0][1])
-        self.nnres = tempres[tempres["word type"].apply(lambda x: x in ["NN", "NNP", "NNS", "NNPS"])]
-        self.remain_res= tempres.drop(self.nnres.index)
-        self.non_nnstopwords=self.remain_res.words.to_list()
+        trainset["word type"] = trainset.word.apply(lambda row: nltk.pos_tag(nltk.word_tokenize(row))[0][1])
+        nnres = trainset[trainset["word type"].apply(lambda x: x in ["NN", "NNP", "NNS", "NNPS"])]
+        remain_res = trainset.drop(nnres.index)
+        non_nnstopwords = remain_res.words.to_list()
+        return non_nnstopwords
 
     def LLM_recoginize(self, require):
-        llm = OpenAI(temperature=0)
-        text = f"please split sentence as single word and filter out any word that cannot be an organization or " \
+        key = "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"
+        llm = OpenAI(temperature=0, openai_api_key=key)
+        text = f"please split sentence by '|' as a unit and filter out any word that cannot be an organization or " \
                f"stakeholder, return me a list of combination, given the text '{require}' "
         response = llm(text)
         filter_out = [val.lower() for val in response.strip("\n").split(", ")]
@@ -102,12 +129,13 @@ class Filtering(File_Path):
                 stp.remove(val)
         return stp, remain
 
-    def stakeholder_filter(self):
+    def stakeholder_filter(self, nnres):
         """by counting the frequency, extract first 2K words and combine together"""
-        filter_stk = self.nnres[self.nnres.words.apply(self.risk_and_project)]
-        require1, require2 = " ".join(filter_stk.words[0:1800].to_list()), " ".join(
-            filter_stk.words[1800:2100].to_list())
-        filter_out = [*self.LLM_recoginize(require1), *self.LLM_recoginize(require2), *self.non_nnstopwords]
+        filter_stk = nnres[nnres.words.apply(self.risk_and_project)]
+        lenfile=len(filter_stk)
+        require1, require2 = "|".join(filter_stk.words[0:int(lenfile*0.3)].to_list()), "|".join(
+            filter_stk.words[int(lenfile*0.3):int(lenfile*0.5)].to_list())
+        filter_out = [*self.LLM_recoginize(require1), *self.LLM_recoginize(require2)]
         """now we get the meanness stakeholder word, which stored in "filter_out", we split them from dataset"""
         mask = self.stk_key.words.str.contains("|".join(filter_out))
         self.stk_key = self.stk_key[~mask]
@@ -128,3 +156,14 @@ class Filtering(File_Path):
         stopword = list({*stopword, *filter_out})
         self.update_stopword(stopword)
         self.update_remain(remain)
+
+
+if __name__ == "__main__":
+    df_path=pathprefix+"\\FP_growth_result\\to_one.csv"
+    dataframe=pd.read_csv(df_path, sep=",")
+    freq=dataframe.to.value_counts().reset_index(name="count")
+    freq["words"]=freq["index"]
+    freq=freq.drop(["index"], axis=1)
+
+    initialize = Filtering(freq)
+    initialize.stopword_detection()
