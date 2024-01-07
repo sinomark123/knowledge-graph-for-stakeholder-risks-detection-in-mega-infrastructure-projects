@@ -1,0 +1,525 @@
+risk,types,groups
+Environmental risk,Lack of data,0
+Operational risk,Complex environmental conditions over time,0
+Data-related risk,Insufficient risk assessment,0
+Time-related risk,Inadequate risk control measures,0
+0,Neglecting maintenance work,1
+0,Insufficient investment in maintenance,1
+0,Growing backlog of maintenance work,1
+0,Identification of maintenance significant units,1
+0,Risk assessment of infrastructure systems,1
+Operational risk,0,1
+Financial risk,0,1
+Reputation risk,0,1
+Compliance risk,0,1
+Droughts,Environmental risk (drought),2
+Losses of income,Economic risk (losses of income),2
+Inadequate crisis management,Social risk (inadequate crisis management),2
+Insufficient risk management,Political risk (inadequate risk management),2
+On-site construction risk,0,3
+Financial cost risk,0,3
+Penalty risk,0,3
+ Escalation risk, Propagation of risks from one to another,4
+ Collapse risk, Geological disaster,4
+ Accuracy risk," Cost overruns, schedule delays, and quality issues",4
+ Site-fit rework risk, Evaluation factors or methods restricted,4
+Operational risk,Lack of data,5
+Environmental risk,Complex environmental conditions over time,5
+Data-related risk,Insufficient risk assessment,5
+Time-related risk,Inadequate risk control measures,5
+0,Neglecting maintenance work,6
+0,Insufficient investment in maintenance,6
+0,Growing backlog of maintenance work,6
+0,Identification of maintenance significant units,6
+0,Risk assessment of infrastructure systems,6
+Operational risk,0,6
+Financial risk,0,6
+Reputation risk,0,6
+Compliance risk,0,6
+Droughts,Environmental risk (drought),7
+Losses of income,Economic risk (losses of income),7
+Inadequate crisis management,Social risk (inadequate crisis management),7
+Insufficient risk management,Political risk (inadequate risk management),7
+On-site construction risk,0,8
+Financial cost risk,0,8
+Penalty risk,0,8
+ Escalation risk, Propagation of risks from one to another,9
+ Collapse risk, Geological disaster,9
+ Accuracy risk," Cost overruns, schedule delays, and quality issues",9
+ Site-fit rework risk, Evaluation factors or methods restricted,9
+Time deadline risk,0,10
+Competition function risk,0,10
+Safety performance risk,0,10
+Contractors' unsafe operation risk,0,10
+Lack of emergency response plan risk,0,10
+Ignoring safety under schedule pressure risk,0,10
+Operational risk,0,10
+Compliance risk,0,10
+Reputation risk,0,10
+Financial risk,0,10
+Strategic risk,0,10
+"Unknown or unreliable sources of data (e.g., ""crowdsourcing is one of the ideal approaches..."")","Safety risk (e.g., ""elevator installation risk assessment..."")",11
+0,"Limited resources for safety inspections (e.g., ""Well-trained inspectors could be a limited resource..."")",11
+0,"Distorted results from non-professional players (e.g., ""inputs provided by nonprofessional players can distort the aggregated results."")",11
+0,"xxx risk (mentioned in the sentence as ""there is no reason to consider the model invalid for driver behavior in basic segments of the freeways in Iran, under non-congested conditions."")",12
+0,Uncertain position of vehicles (caused by their acceleration or deceleration),12
+0,Safety risk (related to the potential for accidents or injuries in emergency situations),12
+0,Environmental risk (related to the impact of environmental conditions on safety measures),12
+0,Equipment risk (related to the potential malfunctioning of safety equipment),12
+0,Emergency preparedness risk (related to the adequacy of emergency measures and training),12
+0,Human interaction risk (related to the potential for conflicts or inadequate communication among personnel in emergency situations),12
+Water scarcity,Environmental risks,13
+Energy scarcity,Health and safety risks,13
+Environmental degradation,Economic risks,13
+Health and safety risks,Social risks,13
+0,Cost overruns,13
+0,Time delays,13
+0,Quality issues,13
+Earthquake-related risks,Natural hazard-related risks (Natech risks),14
+Uncertainties in risk assessment,Technological disaster risks,14
+Non-linear relationships between parameters,Emergency response planning risks,14
+Financial consequences,Mitigation risks,14
+Danger to industrial facilities and nearby residential areas,Prevention risks,14
+Operational risk,Lack of data,15
+Environmental risk,Complex environmental conditions over time,15
+Data-related risk,Insufficient risk assessment,15
+Time-related risk,Inadequate risk control measures,15
+0,Neglecting maintenance work,16
+0,Insufficient investment in maintenance,16
+0,Growing backlog of maintenance work,16
+0,Identification of maintenance significant units,16
+0,Risk assessment of infrastructure systems,16
+Operational risk,0,16
+Financial risk,0,16
+Reputation risk,0,16
+Compliance risk,0,16
+Droughts,Environmental risk (drought),17
+Losses of income,Economic risk (losses of income),17
+Inadequate crisis management,Social risk (inadequate crisis management),17
+Insufficient risk management,Political risk (inadequate risk management),17
+On-site construction risk,0,18
+Financial cost risk,0,18
+Penalty risk,0,18
+ Escalation risk, Propagation of risks from one to another,19
+ Collapse risk, Geological disaster,19
+ Accuracy risk," Cost overruns, schedule delays, and quality issues",19
+ Site-fit rework risk, Evaluation factors or methods restricted,19
+Time deadline risk,0,20
+Competition function risk,0,20
+Safety performance risk,0,20
+Contractors' unsafe operation risk,0,20
+Lack of emergency response plan risk,0,20
+Ignoring safety under schedule pressure risk,0,20
+Operational risk,0,20
+Compliance risk,0,20
+Reputation risk,0,20
+Financial risk,0,20
+Strategic risk,0,20
+"Unknown or unreliable sources of data (e.g., ""crowdsourcing is one of the ideal approaches..."")","Safety risk (e.g., ""elevator installation risk assessment..."")",21
+0,"Limited resources for safety inspections (e.g., ""Well-trained inspectors could be a limited resource..."")",21
+0,"Distorted results from non-professional players (e.g., ""inputs provided by nonprofessional players can distort the aggregated results."")",21
+0,"xxx risk (mentioned in the sentence as ""there is no reason to consider the model invalid for driver behavior in basic segments of the freeways in Iran, under non-congested conditions."")",22
+0,Uncertain position of vehicles (caused by their acceleration or deceleration),22
+0,Safety risk (related to the potential for accidents or injuries in emergency situations),22
+0,Environmental risk (related to the impact of environmental conditions on safety measures),22
+0,Equipment risk (related to the potential malfunctioning of safety equipment),22
+0,Emergency preparedness risk (related to the adequacy of emergency measures and training),22
+0,Human interaction risk (related to the potential for conflicts or inadequate communication among personnel in emergency situations),22
+Water scarcity,Environmental risks,23
+Energy scarcity,Health and safety risks,23
+Environmental degradation,Economic risks,23
+Health and safety risks,Social risks,23
+0,Cost overruns,23
+0,Time delays,23
+0,Quality issues,23
+Earthquake-related risks,Natural hazard-related risks (Natech risks),24
+Uncertainties in risk assessment,Technological disaster risks,24
+Non-linear relationships between parameters,Emergency response planning risks,24
+Financial consequences,Mitigation risks,24
+Danger to industrial facilities and nearby residential areas,Prevention risks,24
+0,"Falsework systems may fail during construction, leading to safety hazards and financial losses.",25
+0,"Implementing quality management procedures may increase costs, but the extent of improvements in terms of structural and economical risks may not justify the extra costs incurred.",25
+0,"Driving-risk situations may be generated due to human factors such as driver fatigue, distraction, or poor road conditions.",25
+0,The proposed methodology for combining evaluations from traffic safety experts may not accurately capture the most common human factors related to the generation of driving-risk situations.,25
+0,"Safety risks: failure of falsework systems, driver fatigue or distraction.",25
+0,Financial risks: increased costs due to implementing quality management procedures.,25
+0,Human factor risks: driver fatigue or poor road conditions.,25
+Collision risk,Earthquake-triggered geohazards,26
+Legal uncertainty,Social and environmental risks,27
+Political instability,Economic fluctuations,27
+0,Defects in construction,28
+0,Water problems,28
+0,Surface appearance issues,28
+0,Structural damage,28
+0,External environmental factors,28
+0,Operational risk (defects in construction),28
+0,"Hazard risk (water problems, surface appearance issues)",28
+0,"Compliance risk (structural damage, external environmental factors)",28
+0,Reputation risk (public safety concerns),28
+Hazardous materials (hazmat) incidents,"Safety risks (e.g. hazmat incidents, train derailment)",29
+Freight train derailment,Stakeholder risks (e.g. political and legal risk factors),29
+Political and legal risk factors,Uncertainty risks (e.g. in PPP projects),29
+0,Uncertainty in PPP projects,29
+Operational risk,Lack of data,30
+Environmental risk,Complex environmental conditions over time,30
+Data-related risk,Insufficient risk assessment,30
+Time-related risk,Inadequate risk control measures,30
+0,Neglecting maintenance work,31
+0,Insufficient investment in maintenance,31
+0,Growing backlog of maintenance work,31
+0,Identification of maintenance significant units,31
+0,Risk assessment of infrastructure systems,31
+Operational risk,0,31
+Financial risk,0,31
+Reputation risk,0,31
+Compliance risk,0,31
+Droughts,Environmental risk (drought),32
+Losses of income,Economic risk (losses of income),32
+Inadequate crisis management,Social risk (inadequate crisis management),32
+Insufficient risk management,Political risk (inadequate risk management),32
+On-site construction risk,0,33
+Financial cost risk,0,33
+Penalty risk,0,33
+ Escalation risk, Propagation of risks from one to another,34
+ Collapse risk, Geological disaster,34
+ Accuracy risk," Cost overruns, schedule delays, and quality issues",34
+ Site-fit rework risk, Evaluation factors or methods restricted,34
+Time deadline risk,0,35
+Competition function risk,0,35
+Safety performance risk,0,35
+Contractors' unsafe operation risk,0,35
+Lack of emergency response plan risk,0,35
+Ignoring safety under schedule pressure risk,0,35
+Operational risk,0,35
+Compliance risk,0,35
+Reputation risk,0,35
+Financial risk,0,35
+Strategic risk,0,35
+"Unknown or unreliable sources of data (e.g., ""crowdsourcing is one of the ideal approaches..."")","Safety risk (e.g., ""elevator installation risk assessment..."")",36
+0,"Limited resources for safety inspections (e.g., ""Well-trained inspectors could be a limited resource..."")",36
+0,"Distorted results from non-professional players (e.g., ""inputs provided by nonprofessional players can distort the aggregated results."")",36
+0,"xxx risk (mentioned in the sentence as ""there is no reason to consider the model invalid for driver behavior in basic segments of the freeways in Iran, under non-congested conditions."")",37
+0,Uncertain position of vehicles (caused by their acceleration or deceleration),37
+0,Safety risk (related to the potential for accidents or injuries in emergency situations),37
+0,Environmental risk (related to the impact of environmental conditions on safety measures),37
+0,Equipment risk (related to the potential malfunctioning of safety equipment),37
+0,Emergency preparedness risk (related to the adequacy of emergency measures and training),37
+0,Human interaction risk (related to the potential for conflicts or inadequate communication among personnel in emergency situations),37
+Water scarcity,Environmental risks,38
+Energy scarcity,Health and safety risks,38
+Environmental degradation,Economic risks,38
+Health and safety risks,Social risks,38
+0,Cost overruns,38
+0,Time delays,38
+0,Quality issues,38
+Earthquake-related risks,Natural hazard-related risks (Natech risks),39
+Uncertainties in risk assessment,Technological disaster risks,39
+Non-linear relationships between parameters,Emergency response planning risks,39
+Financial consequences,Mitigation risks,39
+Danger to industrial facilities and nearby residential areas,Prevention risks,39
+0,"Falsework systems may fail during construction, leading to safety hazards and financial losses.",40
+0,"Implementing quality management procedures may increase costs, but the extent of improvements in terms of structural and economical risks may not justify the extra costs incurred.",40
+0,"Driving-risk situations may be generated due to human factors such as driver fatigue, distraction, or poor road conditions.",40
+0,The proposed methodology for combining evaluations from traffic safety experts may not accurately capture the most common human factors related to the generation of driving-risk situations.,40
+0,"Safety risks: failure of falsework systems, driver fatigue or distraction.",40
+0,Financial risks: increased costs due to implementing quality management procedures.,40
+0,Human factor risks: driver fatigue or poor road conditions.,40
+Collision risk,Earthquake-triggered geohazards,41
+Legal uncertainty,Social and environmental risks,42
+Political instability,Economic fluctuations,42
+0,Defects in construction,43
+0,Water problems,43
+0,Surface appearance issues,43
+0,Structural damage,43
+0,External environmental factors,43
+0,Operational risk (defects in construction),43
+0,"Hazard risk (water problems, surface appearance issues)",43
+0,"Compliance risk (structural damage, external environmental factors)",43
+0,Reputation risk (public safety concerns),43
+Hazardous materials (hazmat) incidents,"Safety risks (e.g. hazmat incidents, train derailment)",44
+Freight train derailment,Stakeholder risks (e.g. political and legal risk factors),44
+Political and legal risk factors,Uncertainty risks (e.g. in PPP projects),44
+0,Uncertainty in PPP projects,44
+0,Uncertainties in dam engineering problems,45
+0,Complexities in dam engineering problems,45
+0,Lack of reliability analysis,45
+0,Insufficient value management cycle,45
+0,Inadequate risk management process,45
+0,Operational risk (lack of reliability analysis),45
+0,Strategic risk (inadequate risk management process),45
+0,Compliance risk (lack of adherence to safety standards),45
+0,Reputation risk (inadequate risk management process),45
+0,Financial risk (inadequate risk management process),45
+Accurate risk identification,Progressive relations among risk factors,46
+Uncertainty,CSORs (container shipping operational risks) evaluation and management,46
+Climate change,Environmental,47
+0,Sea level rise,47
+0,Economic costs,47
+0,Loss of habitat,47
+Drought-related risk,0,48
+0,Water scarcity problems,48
+0,Agriculture and domestic water use,48
+ Unreliable data, Failure to account for uncertainties in risk assessment,49
+ Inaccurate risk assessment, Lack of accuracy in risk modeling,49
+ Overreliance on numerical results, Inconsistent or incomplete data,49
+ Inadequate consideration of uncertainties, Failure to consider other factors beyond numerical data,49
+Operational risk,Lack of data,50
+Environmental risk,Complex environmental conditions over time,50
+Data-related risk,Insufficient risk assessment,50
+Time-related risk,Inadequate risk control measures,50
+0,Neglecting maintenance work,51
+0,Insufficient investment in maintenance,51
+0,Growing backlog of maintenance work,51
+0,Identification of maintenance significant units,51
+0,Risk assessment of infrastructure systems,51
+Operational risk,0,51
+Financial risk,0,51
+Reputation risk,0,51
+Compliance risk,0,51
+Droughts,Environmental risk (drought),52
+Losses of income,Economic risk (losses of income),52
+Inadequate crisis management,Social risk (inadequate crisis management),52
+Insufficient risk management,Political risk (inadequate risk management),52
+On-site construction risk,0,53
+Financial cost risk,0,53
+Penalty risk,0,53
+ Escalation risk, Propagation of risks from one to another,54
+ Collapse risk, Geological disaster,54
+ Accuracy risk," Cost overruns, schedule delays, and quality issues",54
+ Site-fit rework risk, Evaluation factors or methods restricted,54
+Time deadline risk,0,55
+Competition function risk,0,55
+Safety performance risk,0,55
+Contractors' unsafe operation risk,0,55
+Lack of emergency response plan risk,0,55
+Ignoring safety under schedule pressure risk,0,55
+Operational risk,0,55
+Compliance risk,0,55
+Reputation risk,0,55
+Financial risk,0,55
+Strategic risk,0,55
+"Unknown or unreliable sources of data (e.g., ""crowdsourcing is one of the ideal approaches..."")","Safety risk (e.g., ""elevator installation risk assessment..."")",56
+0,"Limited resources for safety inspections (e.g., ""Well-trained inspectors could be a limited resource..."")",56
+0,"Distorted results from non-professional players (e.g., ""inputs provided by nonprofessional players can distort the aggregated results."")",56
+0,"xxx risk (mentioned in the sentence as ""there is no reason to consider the model invalid for driver behavior in basic segments of the freeways in Iran, under non-congested conditions."")",57
+0,Uncertain position of vehicles (caused by their acceleration or deceleration),57
+0,Safety risk (related to the potential for accidents or injuries in emergency situations),57
+0,Environmental risk (related to the impact of environmental conditions on safety measures),57
+0,Equipment risk (related to the potential malfunctioning of safety equipment),57
+0,Emergency preparedness risk (related to the adequacy of emergency measures and training),57
+0,Human interaction risk (related to the potential for conflicts or inadequate communication among personnel in emergency situations),57
+Water scarcity,Environmental risks,58
+Energy scarcity,Health and safety risks,58
+Environmental degradation,Economic risks,58
+Health and safety risks,Social risks,58
+0,Cost overruns,58
+0,Time delays,58
+0,Quality issues,58
+Earthquake-related risks,Natural hazard-related risks (Natech risks),59
+Uncertainties in risk assessment,Technological disaster risks,59
+Non-linear relationships between parameters,Emergency response planning risks,59
+Financial consequences,Mitigation risks,59
+Danger to industrial facilities and nearby residential areas,Prevention risks,59
+0,"Falsework systems may fail during construction, leading to safety hazards and financial losses.",60
+0,"Implementing quality management procedures may increase costs, but the extent of improvements in terms of structural and economical risks may not justify the extra costs incurred.",60
+0,"Driving-risk situations may be generated due to human factors such as driver fatigue, distraction, or poor road conditions.",60
+0,The proposed methodology for combining evaluations from traffic safety experts may not accurately capture the most common human factors related to the generation of driving-risk situations.,60
+0,"Safety risks: failure of falsework systems, driver fatigue or distraction.",60
+0,Financial risks: increased costs due to implementing quality management procedures.,60
+0,Human factor risks: driver fatigue or poor road conditions.,60
+Collision risk,Earthquake-triggered geohazards,61
+Legal uncertainty,Social and environmental risks,62
+Political instability,Economic fluctuations,62
+0,Defects in construction,63
+0,Water problems,63
+0,Surface appearance issues,63
+0,Structural damage,63
+0,External environmental factors,63
+0,Operational risk (defects in construction),63
+0,"Hazard risk (water problems, surface appearance issues)",63
+0,"Compliance risk (structural damage, external environmental factors)",63
+0,Reputation risk (public safety concerns),63
+Hazardous materials (hazmat) incidents,"Safety risks (e.g. hazmat incidents, train derailment)",64
+Freight train derailment,Stakeholder risks (e.g. political and legal risk factors),64
+Political and legal risk factors,Uncertainty risks (e.g. in PPP projects),64
+0,Uncertainty in PPP projects,64
+0,Uncertainties in dam engineering problems,65
+0,Complexities in dam engineering problems,65
+0,Lack of reliability analysis,65
+0,Insufficient value management cycle,65
+0,Inadequate risk management process,65
+0,Operational risk (lack of reliability analysis),65
+0,Strategic risk (inadequate risk management process),65
+0,Compliance risk (lack of adherence to safety standards),65
+0,Reputation risk (inadequate risk management process),65
+0,Financial risk (inadequate risk management process),65
+Accurate risk identification,Progressive relations among risk factors,66
+Uncertainty,CSORs (container shipping operational risks) evaluation and management,66
+Climate change,Environmental,67
+0,Sea level rise,67
+0,Economic costs,67
+0,Loss of habitat,67
+Drought-related risk,0,68
+0,Water scarcity problems,68
+0,Agriculture and domestic water use,68
+ Unreliable data, Failure to account for uncertainties in risk assessment,69
+ Inaccurate risk assessment, Lack of accuracy in risk modeling,69
+ Overreliance on numerical results, Inconsistent or incomplete data,69
+ Inadequate consideration of uncertainties, Failure to consider other factors beyond numerical data,69
+Safety-related system risk,Identifying vulnerable buildings that may sustain significant damage during a future earthquake,70
+Dynamic random system risk,Reducing existing seismic risks through retrofitting or replacing buildings,70
+Natural gas leakage risk,Failure to properly assess and mitigate risk priorities for buildings,70
+Pipeline risk,Incorrect use of international safety standards,70
+Carbon dioxide capture and storage risk,Inadequate risk frequency estimation,70
+0,Incorrect analysis of risk frequency in dynamic random systems,70
+Uncertainties in construction projects,Safety risks,71
+Severe losses due to asymmetric information,Environmental risks,71
+Opportunistic behavior in the construction market,Social risks,71
+Lack of faith in the construction market,Economic risks,71
+Increased risk in construction projects,Technical risks,71
+Machinery breakdown risk,Flood risk,72
+Error risk,Explosion risk,72
+Fire risk,Omissions risk,72
+"Health risks (e.g., exposure to pollutants)","Environmental health risks (e.g., exposure to toxic elements)",73
+"Environmental risks (e.g., contamination of surface water sources)","Safety risks (e.g., accidents related to construction or travel)",73
+"Safety risks (e.g., accidents related to construction or travel)","Regulatory risks (e.g., non-compliance with environmental quality standards)",73
+Complexity risk,0,74
+Interdependence risk,0,74
+Uncertainty risk,0,74
+Environmental risk,0,74
+Social risk,0,74
+Operational risk,0,74
+Strategic risk,0,74
+Reputation risk,0,74
+Financial risk,0,74
+Compliance risk,0,74
+Operational risk,Lack of data,75
+Environmental risk,Complex environmental conditions over time,75
+Data-related risk,Insufficient risk assessment,75
+Time-related risk,Inadequate risk control measures,75
+0,Neglecting maintenance work,76
+0,Insufficient investment in maintenance,76
+0,Growing backlog of maintenance work,76
+0,Identification of maintenance significant units,76
+0,Risk assessment of infrastructure systems,76
+Operational risk,0,76
+Financial risk,0,76
+Reputation risk,0,76
+Compliance risk,0,76
+Droughts,Environmental risk (drought),77
+Losses of income,Economic risk (losses of income),77
+Inadequate crisis management,Social risk (inadequate crisis management),77
+Insufficient risk management,Political risk (inadequate risk management),77
+On-site construction risk,0,78
+Financial cost risk,0,78
+Penalty risk,0,78
+ Escalation risk, Propagation of risks from one to another,79
+ Collapse risk, Geological disaster,79
+ Accuracy risk," Cost overruns, schedule delays, and quality issues",79
+ Site-fit rework risk, Evaluation factors or methods restricted,79
+Time deadline risk,0,80
+Competition function risk,0,80
+Safety performance risk,0,80
+Contractors' unsafe operation risk,0,80
+Lack of emergency response plan risk,0,80
+Ignoring safety under schedule pressure risk,0,80
+Operational risk,0,80
+Compliance risk,0,80
+Reputation risk,0,80
+Financial risk,0,80
+Strategic risk,0,80
+"Unknown or unreliable sources of data (e.g., ""crowdsourcing is one of the ideal approaches..."")","Safety risk (e.g., ""elevator installation risk assessment..."")",81
+0,"Limited resources for safety inspections (e.g., ""Well-trained inspectors could be a limited resource..."")",81
+0,"Distorted results from non-professional players (e.g., ""inputs provided by nonprofessional players can distort the aggregated results."")",81
+0,"xxx risk (mentioned in the sentence as ""there is no reason to consider the model invalid for driver behavior in basic segments of the freeways in Iran, under non-congested conditions."")",82
+0,Uncertain position of vehicles (caused by their acceleration or deceleration),82
+0,Safety risk (related to the potential for accidents or injuries in emergency situations),82
+0,Environmental risk (related to the impact of environmental conditions on safety measures),82
+0,Equipment risk (related to the potential malfunctioning of safety equipment),82
+0,Emergency preparedness risk (related to the adequacy of emergency measures and training),82
+0,Human interaction risk (related to the potential for conflicts or inadequate communication among personnel in emergency situations),82
+Water scarcity,Environmental risks,83
+Energy scarcity,Health and safety risks,83
+Environmental degradation,Economic risks,83
+Health and safety risks,Social risks,83
+0,Cost overruns,83
+0,Time delays,83
+0,Quality issues,83
+Earthquake-related risks,Natural hazard-related risks (Natech risks),84
+Uncertainties in risk assessment,Technological disaster risks,84
+Non-linear relationships between parameters,Emergency response planning risks,84
+Financial consequences,Mitigation risks,84
+Danger to industrial facilities and nearby residential areas,Prevention risks,84
+0,"Falsework systems may fail during construction, leading to safety hazards and financial losses.",85
+0,"Implementing quality management procedures may increase costs, but the extent of improvements in terms of structural and economical risks may not justify the extra costs incurred.",85
+0,"Driving-risk situations may be generated due to human factors such as driver fatigue, distraction, or poor road conditions.",85
+0,The proposed methodology for combining evaluations from traffic safety experts may not accurately capture the most common human factors related to the generation of driving-risk situations.,85
+0,"Safety risks: failure of falsework systems, driver fatigue or distraction.",85
+0,Financial risks: increased costs due to implementing quality management procedures.,85
+0,Human factor risks: driver fatigue or poor road conditions.,85
+Collision risk,Earthquake-triggered geohazards,86
+Legal uncertainty,Social and environmental risks,87
+Political instability,Economic fluctuations,87
+0,Defects in construction,88
+0,Water problems,88
+0,Surface appearance issues,88
+0,Structural damage,88
+0,External environmental factors,88
+0,Operational risk (defects in construction),88
+0,"Hazard risk (water problems, surface appearance issues)",88
+0,"Compliance risk (structural damage, external environmental factors)",88
+0,Reputation risk (public safety concerns),88
+Hazardous materials (hazmat) incidents,"Safety risks (e.g. hazmat incidents, train derailment)",89
+Freight train derailment,Stakeholder risks (e.g. political and legal risk factors),89
+Political and legal risk factors,Uncertainty risks (e.g. in PPP projects),89
+0,Uncertainty in PPP projects,89
+0,Uncertainties in dam engineering problems,90
+0,Complexities in dam engineering problems,90
+0,Lack of reliability analysis,90
+0,Insufficient value management cycle,90
+0,Inadequate risk management process,90
+0,Operational risk (lack of reliability analysis),90
+0,Strategic risk (inadequate risk management process),90
+0,Compliance risk (lack of adherence to safety standards),90
+0,Reputation risk (inadequate risk management process),90
+0,Financial risk (inadequate risk management process),90
+Accurate risk identification,Progressive relations among risk factors,91
+Uncertainty,CSORs (container shipping operational risks) evaluation and management,91
+Climate change,Environmental,92
+0,Sea level rise,92
+0,Economic costs,92
+0,Loss of habitat,92
+Drought-related risk,0,93
+0,Water scarcity problems,93
+0,Agriculture and domestic water use,93
+ Unreliable data, Failure to account for uncertainties in risk assessment,94
+ Inaccurate risk assessment, Lack of accuracy in risk modeling,94
+ Overreliance on numerical results, Inconsistent or incomplete data,94
+ Inadequate consideration of uncertainties, Failure to consider other factors beyond numerical data,94
+Safety-related system risk,Identifying vulnerable buildings that may sustain significant damage during a future earthquake,95
+Dynamic random system risk,Reducing existing seismic risks through retrofitting or replacing buildings,95
+Natural gas leakage risk,Failure to properly assess and mitigate risk priorities for buildings,95
+Pipeline risk,Incorrect use of international safety standards,95
+Carbon dioxide capture and storage risk,Inadequate risk frequency estimation,95
+0,Incorrect analysis of risk frequency in dynamic random systems,95
+Uncertainties in construction projects,Safety risks,96
+Severe losses due to asymmetric information,Environmental risks,96
+Opportunistic behavior in the construction market,Social risks,96
+Lack of faith in the construction market,Economic risks,96
+Increased risk in construction projects,Technical risks,96
+Machinery breakdown risk,Flood risk,97
+Error risk,Explosion risk,97
+Fire risk,Omissions risk,97
+"Health risks (e.g., exposure to pollutants)","Environmental health risks (e.g., exposure to toxic elements)",98
+"Environmental risks (e.g., contamination of surface water sources)","Safety risks (e.g., accidents related to construction or travel)",98
+"Safety risks (e.g., accidents related to construction or travel)","Regulatory risks (e.g., non-compliance with environmental quality standards)",98
+Complexity risk,0,99
+Interdependence risk,0,99
+Uncertainty risk,0,99
+Environmental risk,0,99
+Social risk,0,99
+Operational risk,0,99
+Strategic risk,0,99
+Reputation risk,0,99
+Financial risk,0,99
+Compliance risk,0,99
