@@ -1,0 +1,97 @@
+1666857818649	geckodriver	INFO	Listening on 127.0.0.1:62641
+1666865016296	geckodriver	INFO	Listening on 127.0.0.1:55042
+1666865906030	geckodriver	INFO	Listening on 127.0.0.1:56250
+1666865908985	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56251" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jqi22\\AppData\\Local\\Temp\\rust_mozprofilecOPIYp"
+1666865909600	Marionette	INFO	Marionette enabled
+1666865909606	Marionette	INFO	Listening on port 56258
+Read port: 56258
+WebDriver BiDi listening on ws://127.0.0.1:56251
+1666865910513	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jqi22\\AppData\\Local\\Temp\\rust_mozprofilecOPIYp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56251/devtools/browser/e88c1d0f-bb07-431f-a68f-1ab958e6c033
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: unreachable code after return statement
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://access.clarivate.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://access.clarivate.com."
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: unreachable code after return statement
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: unreachable code after return statement
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666865936223	Marionette	INFO	Stopped listening on port 56258
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1666869013092	geckodriver	INFO	Listening on 127.0.0.1:59157
+1666869016152	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59158" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jqi22\\AppData\\Local\\Temp\\rust_mozprofileqbqNPf"
+1666869016493	Marionette	INFO	Marionette enabled
+1666869016497	Marionette	INFO	Listening on port 59171
+WebDriver BiDi listening on ws://127.0.0.1:59158
+Read port: 59171
+1666869016702	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jqi22\\AppData\\Local\\Temp\\rust_mozprofileqbqNPf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59158/devtools/browser/db1f308d-d0c1-43b3-9d75-603aafde5169
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: unreachable code after return statement
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://access.clarivate.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://access.clarivate.com."
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: unreachable code after return statement
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: unreachable code after return statement
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.webofscience.com/QUkF7-m1/jQ2/mO2/2AdFur5uf8/awp5LkmpbE/SxBdJRdhAQ/FXJmRF/RoYjoB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666869078300	Marionette	INFO	Stopped listening on port 59171
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1666949892703	geckodriver	INFO	Listening on 127.0.0.1:52842
+1666949895558	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52843" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jqi22\\AppData\\Local\\Temp\\rust_mozprofileDAQLqO"
+1666949896944	Marionette	INFO	Marionette enabled
+1666949896961	Marionette	INFO	Listening on port 52870
+Read port: 52870
+WebDriver BiDi listening on ws://127.0.0.1:52843
+1666949897193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jqi22\\AppData\\Local\\Temp\\rust_mozprofileDAQLqO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52843/devtools/browser/a51e9747-306f-46e0-8ab4-8644c1227e3b
+JavaScript warning: https://www.webofscience.com/wiFO21Nmkx/Z4ReBByh/KE/abEXS4Lp/MmxYFhMB/bAU8V/kdZYC8B, line 1: unreachable code after return statement
+JavaScript warning: https://www.webofscience.com/wiFO21Nmkx/Z4ReBByh/KE/abEXS4Lp/MmxYFhMB/bAU8V/kdZYC8B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.webofscience.com/wiFO21Nmkx/Z4ReBByh/KE/abEXS4Lp/MmxYFhMB/bAU8V/kdZYC8B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://access.clarivate.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://access.clarivate.com."
+JavaScript warning: https://www.webofscience.com/wiFO21Nmkx/Z4ReBByh/KE/abEXS4Lp/MmxYFhMB/bAU8V/kdZYC8B, line 1: unreachable code after return statement
+JavaScript warning: https://www.webofscience.com/wiFO21Nmkx/Z4ReBByh/KE/abEXS4Lp/MmxYFhMB/bAU8V/kdZYC8B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://access.clarivate.com."
+JavaScript warning: https://www.webofscience.com/wiFO21Nmkx/Z4ReBByh/KE/abEXS4Lp/MmxYFhMB/bAU8V/kdZYC8B, line 1: unreachable code after return statement
+JavaScript warning: https://www.webofscience.com/wiFO21Nmkx/Z4ReBByh/KE/abEXS4Lp/MmxYFhMB/bAU8V/kdZYC8B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.webofscience.com/wiFO21Nmkx/Z4ReBByh/KE/abEXS4Lp/MmxYFhMB/bAU8V/kdZYC8B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666949990477	Marionette	INFO	Stopped listening on port 52870
+1667053707251	geckodriver	INFO	Listening on 127.0.0.1:53827
+1667053710239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53828" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jqi22\\AppData\\Local\\Temp\\rust_mozprofileZRcZNp"
+1667053711245	Marionette	INFO	Marionette enabled
+1667053711251	Marionette	INFO	Listening on port 53837
+Read port: 53837
+WebDriver BiDi listening on ws://127.0.0.1:53828
+1667053711457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 307: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jqi22\\AppData\\Local\\Temp\\rust_mozprofileZRcZNp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53828/devtools/browser/69baed82-43e4-4c54-baab-0f6159e3fe7f
+JavaScript warning: https://www.webofscience.com/8S4eAL/WX/P_/m71g/E7nQiedC5NArk/h7Ef8tVV/TisvAQ/a0QfcQMh/QzYB, line 1: unreachable code after return statement
+JavaScript warning: https://www.webofscience.com/8S4eAL/WX/P_/m71g/E7nQiedC5NArk/h7Ef8tVV/TisvAQ/a0QfcQMh/QzYB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://access.clarivate.com."
+JavaScript warning: https://www.webofscience.com/8S4eAL/WX/P_/m71g/E7nQiedC5NArk/h7Ef8tVV/TisvAQ/a0QfcQMh/QzYB, line 1: unreachable code after return statement
+JavaScript warning: https://www.webofscience.com/8S4eAL/WX/P_/m71g/E7nQiedC5NArk/h7Ef8tVV/TisvAQ/a0QfcQMh/QzYB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667053748699	Marionette	INFO	Stopped listening on port 53837
+1667053770475	geckodriver	INFO	Listening on 127.0.0.1:54132
+1667053773544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54133" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jqi22\\AppData\\Local\\Temp\\rust_mozprofilehyP7aT"
+1667053774086	Marionette	INFO	Marionette enabled
+1667053774093	Marionette	INFO	Listening on port 54145
+Read port: 54145
+WebDriver BiDi listening on ws://127.0.0.1:54133
+1667053774252	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jqi22\\AppData\\Local\\Temp\\rust_mozprofilehyP7aT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54133/devtools/browser/27cf94d3-fbb3-4954-a1b2-5298e7eb136f
+JavaScript warning: https://www.webofscience.com/8S4eAL/WX/P_/m71g/E7nQiedC5NArk/h7Ef8tVV/TisvAQ/a0QfcQMh/QzYB, line 1: unreachable code after return statement
+JavaScript warning: https://www.webofscience.com/8S4eAL/WX/P_/m71g/E7nQiedC5NArk/h7Ef8tVV/TisvAQ/a0QfcQMh/QzYB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.webofscience.com/8S4eAL/WX/P_/m71g/E7nQiedC5NArk/h7Ef8tVV/TisvAQ/a0QfcQMh/QzYB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667053782610	Marionette	INFO	Stopped listening on port 54145
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
