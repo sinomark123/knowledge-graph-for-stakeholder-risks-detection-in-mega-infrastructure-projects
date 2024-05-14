@@ -3,6 +3,24 @@ from csv import reader
 from itertools import chain, combinations
 from optparse import OptionParser
 from utils import *
+import copy
+
+def innerTreeHook(root: SycNode):
+    print("Root: ", root())
+    print("Childs are:", " ".join([x[0]() for x in root.children.values()]))
+    for kc, vc in root.children.items():
+        for vcc in vc:
+            innerTreeHook(vcc)
+        # innerTreeHook(vc)
+
+def innerHeaderTableHook(headerTable):
+    presented = headerTable.copy()
+    for k, v in presented.items():
+        print(k, v[0], v[1](), v[2]())
+        temp = copy.deepcopy(v[2])
+        while temp.next:
+            temp = temp.next
+            print(temp(), temp.next)
 
 def fpgrowth(itemSetList, minSupRatio, minConf):
     frequency = getFrequencyFromList(itemSetList)

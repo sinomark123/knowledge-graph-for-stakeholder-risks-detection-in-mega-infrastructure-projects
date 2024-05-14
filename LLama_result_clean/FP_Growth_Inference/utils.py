@@ -1,12 +1,10 @@
 from csv import reader
-from collections import defaultdict
+from collections import defaultdict, Counter, OrderedDict
 from itertools import chain, combinations
 from typing import Any
 from multipledispatch import dispatch
-import multiprocessing
+import multiprocessing as mp
 from typing import *
-
-dispatcher=dispatch()
 
 class Node:
     def __init__(self, itemName, frequency, parentNode):
@@ -61,6 +59,22 @@ def getFromFile(fname):
 
 # ---------------------------------------------------------------------------------------
 
+def freqCounter(itemSetList: list[list[str]]):
+    """
+    count the frequency of each item in the itemset
+    """
+    itemList = list(chain(*itemSetList))
+    freq = Counter(itemList)
+    return OrderedDict(freq.most_common())
+
+def itemSort(itemSetList: list[list[str]], freq: dict[str, int]):
+    """
+    sort the item in the itemset by frequency
+    """
+    for item in itemSetList:
+        item.sort(key=lambda x: freq[x], reverse=True)
+    return itemSetList
+
 def simlarity(item1: object, item2: object):
     """
     simlarity of two short phrases, use cosine to compute on vector
@@ -89,7 +103,7 @@ def sparse_vector(vector: dict[object, int]):
         # add to multi-processing pool, remember to copy the original one
         temp_samples = samples.copy()
         target, rest = temp_samples[idx], temp_samples[:idx] + temp_samples[idx+1:]
-        p = multiprocessing.Process(target=simlarity_compute, args=(target, rest))
+        p = mp.Process(target=simlarity_compute, args=(target, rest))
         grocery.append(p)
     for item in grocery:
         item.start()
@@ -129,7 +143,7 @@ def dict_update(dict1: dict[list[SycNode]], dict2: dict[list[SycNode]], update_n
         dict2[k] = None
     return dict1
 
-def treeBuilder(itemList, longest_len, headerTable):
+def treeBuilder(itemList, headerTable):
     """
     outside treeBuilder, should assign a loop for value 
     itemList = construcTree(itemSetList)
@@ -145,7 +159,6 @@ def treeBuilder(itemList, longest_len, headerTable):
             if not len(key_list[knum]) or key_list[knum][0].itemName != longest_len[col]:
                 continue
             # headtable corresponding element total frequency add 1
-            horizontal_pointer[0] += 1
             parent_node = key_list[knum][0].parent
             children_list = parent_node.children[key_list[knum][0].itemName]
             if len(children_list)>1 and (key_list[knum][0] != children_list[0]):
@@ -171,19 +184,19 @@ def treeBuilder(itemList, longest_len, headerTable):
             elif horizontal_pointer[1]==None:
                 horizontal_pointer.append(key_list[knum][0])
             horizontal_pointer[1] = key_list[knum][0]
-            # same_level_list.append(key_list[knum][0])
             # to clean the list, ensure sorted linkedlist only need to check the first element
             key_list[knum].pop(0)
-        # del same_level_list
     return headerTable
 
 
-
-
-def linkedListInitiallizer(itemList: list):
+def linkedListInitiallizer(itemList: list, order: list[str]):
     """
     we requrie the item in list is already sorted in frequency decending order
     """
+    firstStep = list(set(itemList).intersection(set(order)))
+    if len(firstStep) <= 1:
+        return []
+    itemList = sorted(firstStep, key=lambda x: order.index(x))
     root = SycNode(itemList[0], None)
     parentNode, linked_list = root, [root]
     for item in itemList[1:]:
@@ -194,36 +207,56 @@ def linkedListInitiallizer(itemList: list):
         linked_list.append(currentNode)
     return linked_list
 
-# @dispatch.register
+@dispatch(list)
 def constructTree(itemset_list: list):
     """
     itemset_list: list of list of items
     """
-    pool = multiprocessing.Pool(process=2)
+    pool = mp.Pool(process=2)
     res = pool.map(linkedListInitiallizer, itemset_list)
     pool.close()
     pool.join()
-
     return res
 
-def listDistinction(linkedList: List[List[str]], freq: Dict[str, int]):
-    """
-    now build header table and linked with head element
-    be remind to change the pointer after Node combination
-    """
-    headerList: Dict[str, SycNode] = OrderedDict(freq, None)
-    for freq_str, idx in freq.items():
-        for item in linkedList:
-            if not headerList[item[idx]]:
-                headerList[item[idx]].freq+=1
-            else:
-                headerList[item[idx]] = SycNode(item[idx], None)
-        ...
+resultList: list[list[SycNode]] = []
+def logReesult(result):
+    resultList.append(result)
+
+def general_call(itemList: list[list[str]], minSup: int, root: SycNode):
+    # a step may need optimzed
+    global resultList
+    headerTable: dict[str, int] = {k:[v,None] for k, v in freqCounter(itemList).items() if v>=minSup}
+    itemOrder = list(headerTable.keys())
+
+    print("The length of resultList before put in is:", len(itemList))
+    pool = mp.Pool()
+    for subItem in itemList:
+        pool.apply_async(linkedListInitiallizer, args=(subItem, itemOrder), callback=logReesult)
+    pool.close()
+    pool.join()
+
+    print("The length of resultList is:", len(resultList))
+
+    for items in resultList:
+        if not items: continue
+        items[0].parent = root
+        if items[0]() in root.children.keys():
+            root.children[items[0].itemName].append(items[0])
+        else:
+            root.children[items[0].itemName] = [items[0]]
+
+    headerTable = treeBuilder(resultList, headerTable)
+
+    return headerTable, root
+
+def conditionTree():
     ...
 
+def patternRetrieve():
+    ...
 # ---------------------------------------------------------------------------------------
 
-# @dispatch.register
+@dispatch(list, list, float)
 def constructTree(itemSetList, frequency, minSup):
     headerTable = defaultdict(int)
     # Counting frequency and create header table
@@ -300,6 +333,9 @@ def findPrefixPath(basePat, headerTable):
     return condPats, frequency
 
 def mineTree(headerTable, minSup, preFix, freqItemList):
+    """
+    Most time costed function, why recursion used here?
+    """
     # Sort the items with frequency and create a list
     sortedItemList = [item[0] for item in sorted(list(headerTable.items()), key=lambda p:p[1][0])] 
     # Start with the lowest frequency
