@@ -1,6 +1,7 @@
 from csv import reader
 from collections import defaultdict
 from itertools import chain, combinations
+from typing import Any
 from multipledispatch import dispatch
 import multiprocessing
 from typing import *
@@ -28,11 +29,11 @@ class SycNode:
         self.itemName = itemName
         self.parent = parentNode
         self.children = {}
-        self.next = None
-        self.freq = 0
+        self.next = None # point to the longest item in next level, does this necessary?
+        self.freq = 1 # not total frequency but that in the same level
 
-    # def __getitem__(self):
-    #     return self
+    def __call__(self, *args: Any, **kwds: Any) -> Any:
+        return self.itemName
 
     def increment(self, frequency):
         self.freq += frequency
@@ -108,26 +109,92 @@ def treeBuilder(item, forwardNode):
     current.next = treeBuilder(item, current)
     return current
 
-def treeBuilder(item, forwardNode):
+def listItemCheck(key_list: list[list[SycNode]]):
+    for outlier in key_list:
+        print(" ".join([val() for val in outlier]), " ")
+        print("\n")
+
+def dict_update(dict1: dict[list[SycNode]], dict2: dict[list[SycNode]], update_node: SycNode):
+    """
+    update dict1 with dict2, if dict2 has the same key with dict1, update the value
+    """
+    for k,v in dict2.items():
+        if k in dict1.keys():
+            dict1[k] += v
+        else:
+            dict1[k] = v
+        for item in v:
+            item.parent = update_node
+        # should I add this?
+        dict2[k] = None
+    return dict1
+
+def treeBuilder(itemList, longest_len, headerTable):
     """
     outside treeBuilder, should assign a loop for value 
+    itemList = construcTree(itemSetList)
     """
-    ...
+    # assume get multiple list from construcTree
+    # --------- temperary optimize option ---------
+    longest_len = list(headerTable.keys())
+    key_list: list[list[SycNode]] = itemList
+    # --------- temperary optimize option ---------
+    for col in range(len(longest_len)):
+        horizontal_pointer = headerTable[longest_len[col]]
+        for knum in range(len(key_list)):
+            if not len(key_list[knum]) or key_list[knum][0].itemName != longest_len[col]:
+                continue
+            # headtable corresponding element total frequency add 1
+            horizontal_pointer[0] += 1
+            parent_node = key_list[knum][0].parent
+            children_list = parent_node.children[key_list[knum][0].itemName]
+            if len(children_list)>1 and (key_list[knum][0] != children_list[0]):
+                if key_list[knum][0] not in children_list:
+                    raise ValueError("Logic Error, Node not in the children list")
+                the_only_one = children_list[0]
+                # combine the two node
+                the_only_one.freq += 1
+                # combine the children
+                """
+                Why not dict.update? becuase dict.update will not extend list, but overwrite the list
+                Can I overwrite 'update' so it can update both children node and parent node?
+                """
+                the_only_one.children = dict_update(the_only_one.children, key_list[knum][0].children, the_only_one)
+                # combine finished
+                # update itemlist and parent node children list
+                children_list.remove(key_list[knum][0])
+                key_list[knum].pop(0)
+                continue
+            
+            if horizontal_pointer[1]!=None:
+                horizontal_pointer[1].next = key_list[knum][0]
+            elif horizontal_pointer[1]==None:
+                horizontal_pointer.append(key_list[knum][0])
+            horizontal_pointer[1] = key_list[knum][0]
+            # same_level_list.append(key_list[knum][0])
+            # to clean the list, ensure sorted linkedlist only need to check the first element
+            key_list[knum].pop(0)
+        # del same_level_list
+    return headerTable
+
+
+
 
 def linkedListInitiallizer(itemList: list):
     """
     we requrie the item in list is already sorted in frequency decending order
     """
     root = SycNode(itemList[0], None)
-    parentNode = root
+    parentNode, linked_list = root, [root]
     for item in itemList[1:]:
         currentNode = SycNode(item, parentNode)
-        parentNode.children[item] = currentNode
-        parentNode.next = currentNode
+        # children is a dict, key is the item name, value is a list of node
+        parentNode.children[item] = [currentNode]
         parentNode = currentNode
-    return root
+        linked_list.append(currentNode)
+    return linked_list
 
-@dispatch.register
+# @dispatch.register
 def constructTree(itemset_list: list):
     """
     itemset_list: list of list of items
@@ -156,7 +223,7 @@ def listDistinction(linkedList: List[List[str]], freq: Dict[str, int]):
 
 # ---------------------------------------------------------------------------------------
 
-@dispatch.register
+# @dispatch.register
 def constructTree(itemSetList, frequency, minSup):
     headerTable = defaultdict(int)
     # Counting frequency and create header table
@@ -274,3 +341,38 @@ def associationRule(freqItemSet, itemSetList, minConf):
 def getFrequencyFromList(itemSetList):
     frequency = [1 for _ in range(len(itemSetList))]
     return frequency
+
+
+
+
+"""
+Old Code used for update FP tree
+# ------------------------------------------------
+Here is depcreated one since 'next' is left for headertable
+trigger = 0
+# if current checked Node owns the same parnet node with the previous checked node
+for last_item in same_level_list:
+    if last_item.parent == key_list[knum][0].parent:
+        last_item.freq += 1
+        next_node: SycNode = key_list[knum][0].next
+        last_item.next = next_node
+        next_node.parent, trigger = next_node, 1
+        del key_list[knum][0]
+        break
+if trigger: continue
+# ------------------------------------------------
+current newly used code, less loop
+parent_node = key_list[knum][0].parent
+children_list = parent_node.children[key_list[knum][0].itemName]
+if children_list>0:
+    the_only_one = children_list[0]
+    # combine the two node
+    the_only_one.freq += 1
+    # combine the children
+    the_only_one.children.update(key_list[knum][0].children)
+    for _,v in key_list[knum][0].children.items():
+        v.parent = the_only_one
+    # combine finished
+    del key_list[knum][0]
+    continue
+"""
