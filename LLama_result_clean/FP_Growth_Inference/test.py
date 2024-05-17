@@ -9,7 +9,9 @@ test_list = [
     ['f', 'a', 'c', 'd', 'g', 'i', 'm', 'p'],
     ['a', 'b', 'c', 'f', 'l', 'm', 'o'],
     ['b', 'f', 'h', 'j', 'o'],
-    ['b', 'c', 'k', 's', 'p']
+    ['b', 'c', 'k', 's', 'p'],
+    ['a', 'f', 'c', 'e', 'l', 'p', 'm', 'n'],
+    ['f', 'c','g','s']
 ]
 
 itemsetList = [
@@ -48,17 +50,17 @@ def innerHeaderTableHook(headerTable):
 
 if __name__ == "__main__":
     # r1, r2 = fp.fpgrowth(test_list, 0.5, 0.5)
-    time1 = time.time()
-    root = SycNode("root", None)
-    headerTable, root = general_call(itemList=itemsetList, minSup=2, root=root)
-    innerTreeHook(root)
-    print("The Computation Time is:", time.time() - time1)
-
-    # time2 = time.time()
-    # hood = fp.fpgrowth(itemSetList=itemsetList, minSupRatio=0.5, minConf=0.5)
-    # print("Original Computation Time is:", time.time() - time2)
+    # time1 = time.time()
+    # root = SycNode("root", None)
+    # headerTable, root = general_call(itemList=itemsetList, minSup=2, root=root)
     # innerTreeHook(root)
-    # innerHeaderTableHook(headerTable)
+    # print("The Computation Time is:", time.time() - time1)
+
+    time2 = time.time()
+    itemset, val1 = fp.fpgrowth(itemSetList=test_list, minSupRatio=0.5, minConf=0.5)
+    print("Original Computation Time is:", time.time() - time2)
+    # innerTreeHook(root)
+    innerHeaderTableHook(headerTable)
 
     """
     root, newItemList = SycNode("root", None), []
