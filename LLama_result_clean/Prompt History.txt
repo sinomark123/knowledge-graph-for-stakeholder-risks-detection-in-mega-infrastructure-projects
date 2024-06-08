@@ -1,0 +1,46 @@
+Most Satisfied--Short Phrase and in Format
+f"""This is a content extraction task.
+  Help me to identify three categories: 'risk,' 'project,' and 'stakeholder' that may exist or be related to the given sentence
+  Please return them in order with respective category,
+  You shall only output extracted result; no other words should be presented.
+  if there are various items identified in each category, pls use comma to dvided them.
+  If you cannot judge the organizations or there is no matched tag to label the entire sentence, please return 'None.'
+
+  Answer example:
+  project: output word phrase and answer in one line
+  risk:  output word phrase and answer in one line
+  stakeholder: output word phrase and answer in one line
+
+  Attention, you can only predict the output in the above given criteria
+
+  given sentence:
+  "{words}"
+
+"""
+
+Many Short Word but output format in a Mess
+f"""This is a content extraction task.
+  Help me to identify three categories: 'risk,' 'project,' and 'stakeholder' that may exist or be related to the given sentence
+  Please return them in order with respective category,
+  You shall only output extracted result; no other words should be presented.
+  if there are various items identified in each category, pls use comma to dvided them.
+  If you cannot judge the organizations or there is no matched tag to label the entire sentence, please return 'None.'
+
+  Answer example:
+  project: output phrase corpus and answer in one line
+  risk:  output phrase corpus and answer in one line
+  stakeholder: output phrase corpus and answer in one line
+
+  Attention, you can only predict the output in the above given criteria
+
+  given sentence:
+  "{words}"
+
+"""
+
+
+Common Recording
+# [*.risk\n]
+#   project summarization: \n
+#   risk summarization: \n
+#   stakeholder summarization: \n
